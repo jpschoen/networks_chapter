@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  11 MAR 2018 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  13 MAR 2018 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -905,22 +905,22 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 No file CH48_NetworksEstimation.bbl.
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 (./CH48_NetworksEstimation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `CH48_NetworksEstimation.out' has not changed
 .
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 17913 strings out of 493089
- 344024 string characters out of 6134841
+ 17916 strings out of 493089
+ 344048 string characters out of 6134841
  493127 words of memory out of 5000000
  21127 multiletter control sequences out of 15000+600000
- 44198 words of font info for 123 fonts, out of 8000000 for 9000
+ 44317 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,45p,555b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -929,7 +929,7 @@ xlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb>
-Output written on CH48_NetworksEstimation.pdf (2 pages, 43433 bytes).
+Output written on CH48_NetworksEstimation.pdf (2 pages, 44082 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
