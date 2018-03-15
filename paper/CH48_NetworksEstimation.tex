@@ -2,7 +2,7 @@
 % * <jpschoen@gmail.com> 2018-03-07T16:08:10.834Z:
 %
 % ^.
-
+\usepackage{natbib}
 
 \linespread{1}
 
@@ -25,58 +25,17 @@
 \maketitle{}
 %\keywords{Keyword1, Keyword2, Keyword3} 
 \vspace{-1.5cm}
-\noindent {\bf Overview:}
-Most statistical models used in the social sciences rely on the assumption that the observations in a dataset (or at least clusters of observation) are drawn independently from a common data generating process.  However, when analyzing networks it is often inappropriate to assume that observations are independent. Indeed, the network analyst is often interested in studying the ways in which observations depend upon each other (e.g., do friends influence each others' choices to vote, do legislators reciprocate support for legislation). In this chapter we will review three of the most popular statistical models that have been developed to analyze network data, along with their extensions. These include the exponential random graph model (ERGM), the latent space model (LSM),  and the stochastic block model (SBM). We will review the application of each method to networks in which ties are binary (e.g., are two legislators on at least one committee together), count (e.g., on how many committees do two legislators both serve), and continuous (e.g., how much time do two legislators spend together in committee meetings each week). The complexity and analytical intractability of the mathematical forms of these models render exact approaches to estimation infeasible. As such, estimation in these models proceeds by sampling from a Bayesian posterior and/or approximate methods of maximum likelihood. We will review these estimation methods, and how they are applied to the ERGM, LSM, and SBM. One complication that arises from the variety of sampling-based and approximate approaches to inference with network models is that standard information criteria that would normally be used to select between different families of statistical models (e.g., AIC, BIC, DIC) cannot be calculated in a manner that is comparable across different families of network models. Recently, researchers have turned to various methods of out-of-sample prediction in order to compare and select among network models in terms of generalization error. We will conduct a simulation study to evaluate the effectiveness of comparing the performance of models in terms of generalization error. This simulation study will be, to our knowledge, the first experiment designed to evaluate approaches to comparing network models based on generalization error.
+\noindent {\bf Introduction:} Most statistical models used in the social sciences rely on the assumption that the observations in a dataset (or at least clusters of observation) are drawn independently from a common data generating process.  However, when analyzing networks it is often inappropriate to assume that observations are independent \citep{desmarais2017statistical}. Indeed, the network analyst is often interested in studying the ways in which observations depend upon each other  (e.g., do friends influence each others' choices to vote \citep{bond201261}, do legislators reciprocate support for legislation \citep{kirkland2014partisanship}). 
 \\~\\
-This chapter will be divided into three sections. In the first section we will give an overview of the most common models used in network analysis. In the second section we will discuss the approaches to estimation that are commonly used with these models. In the last section we will conduct a simulation study with the goal of evaluating the effectiveness of measuring generalization error to assist practitioners in selecting among these models.
+\noindent {\bf Overview:} In this chapter we will review three of the most popular statistical models that have been developed to analyze network data, along with their extensions. These include the exponential random graph model (ERGM) \citep{cranmer2011inferential}, the latent space model (LSM) \citep{dorff2016latent},  and the stochastic block model (SBM) \citep{latouche2011overlapping}. We will review the application of each method to networks in which ties are binary (e.g., are two legislators on at least one committee together), count (e.g., on how many committees do two legislators both serve), and continuous (e.g., how much time do two legislators spend together in committee meetings each week). The complexity and analytical intractability of the mathematical forms of these models render exact approaches to estimation infeasible. As such, estimation in these models proceeds by sampling from a Bayesian posterior and/or approximate methods of maximum likelihood \citep{raftery2012fast,van2009framework,nowicki2001estimation}. We will review these estimation methods, and how they are applied to the ERGM, LSM, and SBM. One complication that arises from the variety of sampling-based and approximate approaches to inference with network models is that standard information criteria that would normally be used to select between different families of statistical models (e.g., AIC, BIC, DIC) cannot be calculated in a manner that is comparable across different families of network models. Recently, researchers have considered various methods of out-of-sample prediction in order to compare and select among network models in terms of generalization error \citep[e.g.,][]{desmarais2012micro,dorff2016latent}, with some debate regarding whether this is an appropriate approach \citep{block2018change}. We will conduct a simulation study to evaluate the effectiveness of comparing the performance of models in terms of generalization error. This simulation study will be, to our knowledge, the first experiment designed to evaluate approaches to comparing network models based on generalization error.
+\\~\\
+\noindent {\bf Organization:} This chapter will be divided into three sections. In the first section we will give an overview of the most common models used in network analysis. In the second section we will discuss the approaches to estimation that are commonly used with these models. In the last section we will conduct a simulation study with the goal of evaluating the effectiveness of measuring generalization error to assist practitioners in selecting among these models.
 
 
 
-\section*{Models and Variations}
 
-\begin{itemize}
-\item MRQAP, LSM (Bilinear and Euclidean), ERGM (including TERGM and GERGM), Mixed Membership Stochastic Blockmodel (MMSBM), SAOM/Siena
-
-\end{itemize}
-
-\subsection*{Inference Frameworks}
-
-\begin{itemize}
-\item ML, pseudo-ML, and Bayesian estimation 
-
-\end{itemize}
-
-\section*{Model Selection}
-
-\begin{itemize}
-\item Directed vs Undirected
-\item Edge Types: Binary, Ordinal ,Count, Continuous
-\item Parameters
-\item Network vs Actor Inference
-\item Longitudinal variations 
-	\begin{itemize}
-	\item Discrete time, Autoregressive
-	\item Continuous time, process based
-	\end{itemize}
-\item Missingness
-\end{itemize}
-
-
-
-\section*{Simulation Study}
-
-\begin{itemize}
-\item Using a set of common parameters from publications in political science network applications, we simulate networks for common edge types and evaluate performance in out of sample predictions for the models discussed above.
-\item In addition to the types of edges, we can vary levels of missingness and sparsity.
-
-\end{itemize}
-
-\newpage
-
+\bibliographystyle{apsr}
 \bibliography{bibliography}
-
-
-
 
 
 
