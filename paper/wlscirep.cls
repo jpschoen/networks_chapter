@@ -166,7 +166,7 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
 \vskip18pt%
 {%
 \noindent
-{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\color{color1}\large\sffamily\textbf{Overview}}}
+%{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\color{color1}\large\sffamily\textbf{Overview}}}
 }%
 \vskip10pt
 {%
