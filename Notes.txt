@@ -1,3 +1,4 @@
 Application
 
--
+- Need to request data from the dorff2016latent article to set up the framework of simulation study.
+
