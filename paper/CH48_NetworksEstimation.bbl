@@ -67,4 +67,11 @@ Van~Duijn, Marijtje~AJ, Krista~J Gile \harvardand\ Mark~S Handcock. 2009.
   maximum likelihood estimation of exponential family random graph models.''
   {\em Social Networks} 31(1):52--62.
 
+\harvarditem[Wang et~al.]{Wang, Butts, Hipp, Jose \harvardand\
+  Lakon}{2016}{wang2016multiple}
+Wang, Cheng, Carter~T Butts, John~R Hipp, Rupa Jose \harvardand\ Cynthia~M
+  Lakon. 2016.
+\newblock ``Multiple imputation for missing edge data: A predictive evaluation
+  method with application to Add Health.'' {\em Social networks} 45:89--98.
+
 \end{thebibliography}
