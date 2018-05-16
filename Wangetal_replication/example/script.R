@@ -18,6 +18,7 @@ attributes <- read.csv("Grey_Attributes.csv",header=T)
 #Create a network object using the sociomatrix and its attributes
 ga.net<-network(grey, vertex.attrnames=colnames(attributes),
                 directed=F, hyper=F, loops=F, multiple=F, bipartite=F)
+ga.net[rbind(c(1,4),c(3,5))] <- NA
 
 #Set vertex attributes
 set.vertex.attribute(ga.net,names(attributes),attributes)
