@@ -6,10 +6,19 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 #We will need the following libraries:
 library(network)
 library(ergm)
+library(gtools)
 
 #This undirected adjacency matrix includes 'all' relationships between characters in Grey's Anatomy. 
 #Read in the adj matrix without the first column
 grey <- read.csv("Grey_sex.csv",header=T)[,-1]
+
+# create some missingness
+rc <- seq(3,44,3)
+rc <- permutations(n=length(rc),r=2,v=rc,repeats.allowed=F)
+for(i in 1:nrow(rc)){
+  grey[rc[i,1],rc[i,2]] <-NA
+}
+
 
 #Read in node attributes, which include Gender, Race, Birth Year, Professional Position, Season he/she first appears, and astrological sign.
 attributes <- read.csv("Grey_Attributes.csv",header=T)
