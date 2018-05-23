@@ -1,7 +1,7 @@
 # clear workspace
-rm(list=ls())
-set.seed(19)
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+#rm(list=ls())
+#set.seed(19)
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 #We will need the following libraries:
 library(network)
@@ -25,9 +25,14 @@ set.vertex.attribute(ga.net,names(attributes),attributes)
 
 
 #Model 5
-model5<-ergm(ga.net~edges+nodematch("sex")+degree(1)+nodematch("race")+
+model5a<-ergm(ga.net~edges+nodematch("sex")+degree(1)+nodematch("race")+
                 absdiff("birthyear"),control=control.ergm(
                   MCMC.burnin=50000, MCMC.interval=5000))
+
+model5<-ergm(ga.net~edges+nodematch("sex")+degree(1)+nodematch("race")+
+               absdiff("birthyear"),control=control.ergm(
+                 MCMC.burnin=50000, MCMC.interval=5000,init=coef(model5a),MCMLE.last.boost=1))
+
 summary(model5)
 
 #model5 <- ergm(net~edges+mutual+absdiffcat('grade')+nodemix('female',base=1) +nodematch(class)+nodematch(clubs)+nodematch(sports) +gwesp(δopt,fixed=T), constraints=~bd(attribs=sexattr,maxout=maxout))
@@ -42,7 +47,7 @@ while (max(t.k)>0.1 | tconv.max>0.25) {
                  +nodematch(class)+nodematch(clubs)+nodematch(sports)
                  +gwesp(δopt,fixed=T),
                  constraints=~bd(attribs=sexattr,maxout=maxout),
-                 control=control.ergm(init=par,MCMLE.maxit=20000))
+                 control=control.ergm(init=par,MCMLE.maxit=20000,MCMLE.last.boost=1))
   sf <- model5$sample-model5$sample.obs
   t.k <- abs(apply(sf,2,mean)/apply(model5$sample,2,sd))
   tconv.max <- sqrt(t(apply(sf,2,mean) %*% solve(as.matrix(cov(sf))) %*% apply(sf,2,mean)))
