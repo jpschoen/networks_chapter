@@ -64,3 +64,10 @@ net.fit<-model5
 net.sim5<-simulate(net.fit,
                    constraints=~observed,
                    nsim=250)
+
+
+source('functions.R')
+
+
+
+
