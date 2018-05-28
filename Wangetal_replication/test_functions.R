@@ -34,5 +34,5 @@ model1 <-as.formula(ga.net~edges+nodematch("sex")+degree(1)+nodematch("race")+
 net_sims <- ergm_predictions(model1)
 
 #check accuracy
-score_list <- return_accuracy(df_NAs, grey)
+score_list <- return_accuracy(net_sims, grey)
 mean(score_list)
