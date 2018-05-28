@@ -1,7 +1,7 @@
 # clear workspace
-rm(list=ls())
-set.seed(19)
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+#rm(list=ls())
+#set.seed(19)
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 #We will need the following libraries:
 library(network)
