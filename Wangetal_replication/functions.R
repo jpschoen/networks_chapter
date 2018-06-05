@@ -84,5 +84,13 @@ return_accuracy <-function(simulations, observed){
   return(score)
 }
 
+return_accuracy_l <-function(simulations, observed){
+  score <-vector("numeric",length(simulations))
+  for(i in 1:length(simulations)){
+    test = as.sociomatrix(simulations[i], matrix.type="adjacency", attrname = NULL)-observed
+    score[i] = sum(abs(test))/(nrow(observed)^2)
+  }
+  return(score)
+}
 
 

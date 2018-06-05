@@ -7,6 +7,7 @@
 library(network)
 library(ergm)
 library(gtools)
+library(latentnet)
 source('functions.R')
 
 #This undirected adjacency matrix includes 'all' relationships between characters in Grey's Anatomy. 
@@ -36,3 +37,20 @@ net_sims <- ergm_predictions(model1)
 #check accuracy
 score_list <- return_accuracy(net_sims, grey)
 mean(score_list)
+
+
+
+
+# latent space model ####
+
+#estimate
+latent_model <- ergmm(model1,control=ergmm.control(burnin=10000,sample.size= 2000,interval=5))
+#simulate
+latent.sims <- simulate(latent_model, nsim=2)
+#check accuracy
+score_list_latent <- return_accuracy_l(latent.sims[[2]], grey)
+mean(score_list_latent)
+
+
+
+
