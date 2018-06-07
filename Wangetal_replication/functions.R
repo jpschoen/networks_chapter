@@ -84,10 +84,16 @@ return_accuracy <-function(simulations, observed){
   return(score)
 }
 
-return_accuracy_l <-function(simulations, observed){
+return_accuracy_l <-function(simulations, observed, observed_NA){
   score <-vector("numeric",length(simulations))
   for(i in 1:length(simulations)){
-    test = as.sociomatrix(simulations[i], matrix.type="adjacency", attrname = NULL)-observed
+    predictions <- as.sociomatrix(simulations[i], matrix.type="adjacency", attrname = NULL)
+    predicted <- observed_NA
+    for(x in 1:nrow(predicted)){
+      for(y in 1:ncol(predicted))
+        predicted[x,y] <- ifelse(is.na(predicted[x,y]), predictions[x,y],observed[x,y])
+    }
+    test = predicted-observed
     score[i] = sum(abs(test))/(nrow(observed)^2)
   }
   return(score)

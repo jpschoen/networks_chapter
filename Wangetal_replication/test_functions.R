@@ -48,7 +48,7 @@ latent_model <- ergmm(model1,control=ergmm.control(burnin=10000,sample.size= 200
 #simulate
 latent.sims <- simulate(latent_model, nsim=2)
 #check accuracy
-score_list_latent <- return_accuracy_l(latent.sims[[2]], grey)
+score_list_latent <- return_accuracy_l(latent.sims[[2]], grey, df_NA)
 mean(score_list_latent)
 
 
