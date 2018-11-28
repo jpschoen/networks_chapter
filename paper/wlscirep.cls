@@ -142,16 +142,16 @@
 %
 \newcommand{\keywords}[1]{\def\@keywords{#1}}
 
-\def\xabstract{abstract}
-\long\def\abstract#1\end#2{\def\two{#2}\ifx\two\xabstract 
-\long\gdef\theabstract{\ignorespaces#1}
-\def\go{\end{abstract}}\else
-\typeout{^^J^^J PLEASE DO NOT USE ANY \string\begin\space \string\end^^J
-COMMANDS WITHIN ABSTRACT^^J^^J}#1\end{#2}
-\gdef\theabstract{\vskip12pt BADLY FORMED ABSTRACT: PLEASE DO
-NOT USE {\tt\string\begin...\string\end} COMMANDS WITHIN
-THE ABSTRACT\vskip12pt}\let\go\relax\fi
-\go}
+%\def\xabstract{abstract}
+%\long\def\abstract#1\end#2{\def\two{#2}\ifx\two\xabstract 
+%\long\gdef\theabstract{\ignorespaces#1}
+%\def\go{\end{abstract}}\else
+%\typeout{^^J^^J PLEASE DO NOT USE ANY \string\begin\space \string\end^^J
+%COMMANDS WITHIN ABSTRACT^^J^^J}#1\end{#2}
+%\gdef\theabstract{\vskip12pt BADLY FORMED ABSTRACT: PLEASE DO
+%NOT USE {\tt\string\begin...\string\end} COMMANDS WITHIN
+%THE ABSTRACT\vskip12pt}\let\go\relax\fi
+%\go}
 
 %
 % custom title page 
@@ -173,7 +173,7 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
 \noindent
 \colorbox{color2}{%
 \parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
-\sffamily\small\textbf\\\theabstract
+%\sffamily\small\textbf\\\theabstract
 }%
 }%
 % \vskip18pt%

@@ -76,14 +76,14 @@ save(list=c("flo_ERGM", "flo_LSM", "flo_SBM", "flo_adj","flomarriage"), file="fl
 ######### zach data  ############
 
 #LSM
-zach_LSM <- ergmm(zach ~ edges + kstar(2),
+zach_LSM <- ergmm(zach ~ edges + mutual,
                  control=ergmm.control(burnin=burnin,
                                        sample.size= sample_size,
                                        interval=interval))
 results$zach[1] <-LSM_DIC(zach_LSM)
 
 #SBM
-zach_SBM<- CID.Gibbs(flo_adj, components = c(SBM(2)), draws = sample_size, burnin = burnin,
+zach_SBM<- CID.Gibbs(zach_adj, components = c(SBM(2)), draws = sample_size, burnin = burnin,
                     thin = interval)
 results$zach[2] <-zach_SBM$DIC[1]
 
@@ -96,6 +96,8 @@ zach_ERGM <- bergm(zach ~ edges + kstar(2),
 zach_lls <- ll.bergm(zach_ERGM$Theta,zach ~ offset(edges) + offset(kstar(2)),
                 MCMC.samplesize=100,nsteps=10)
 results$zach[3] <-dic.bergm(zach_lls)
+
+save(list=c("zach_ERGM", "zach_LSM", "zach_SBM", "zach_adj","zach"), file="zach_results.Rdata")
 ######### Sampson data ############
 
 #LSM
@@ -123,7 +125,7 @@ samplike_lls <- ll.bergm(samplike_ERGM$Theta,samplike ~ offset(edges) + offset(m
 results$samplike[3] <-dic.bergm(samplike_lls)
 end_time <- Sys.time()
 end_time-start_time # 1.95 hours
-
+save(list=c("samplike_ERGM", "samplike_LSM", "samplike_SBM", "samplike_adj","samplike"), file="samplike_results.Rdata")
 save(results, file="comparison.Rdata")
 
 

@@ -1,6 +1,6 @@
 # clear workspace
 rm(list=ls())
-#setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 #libraries
 library(latentnet)
@@ -15,7 +15,7 @@ library(intergraph)
 library(foreach)
 library(doParallel)
 no_cores <- detectCores()
-cl <- makeCluster(no_cores-2)
+cl <- makeCluster(no_cores)
 registerDoParallel(cl)
 
 
@@ -25,15 +25,15 @@ load("flo_results.Rdata")
 source("DIC_functions.R")
 
 #number for seed and results
-a = 1
+a = 7
 #set dataframe
 
 # Set Model Parameters
 burnin = 500
-sample_size = 20
+sample_size = 2000
 interval = 5
-bergm_MCMC_n = 10
-sim_n = 100
+bergm_MCMC_n = 2000
+sim_n = 20
 seed = a
 
 #set seed
@@ -43,7 +43,7 @@ result_names <- c("SBM_flo_SBM", "SBM_flo_LSM", "SBM_flo_ERGM",
                        "LSM_flo_SBM", "LSM_flo_LSM", "LSM_flo_ERGM",
                        "SBM_flo_SBM", "SBM_flo_LSM", "SBM_flo_ERGM")
 dfr <-as.data.frame(matrix(nrow=1, ncol=9))
-for(n in seq(10,20,100)){
+for(n in seq(10,sim_n,10)){
 s <- n-9
 f <- n  
 # run parallel loop for simulations
@@ -123,7 +123,7 @@ results_row[6] <-dic.bergm(simtest_lls)
 #2c.  Simulate networks from ERGM(D). For each simulated network, 
 #     estimate LSM, SBM, and ERGM. See how frequently the DIC favors ERGM.
 #Simulate flo
-ergm_obj <- ergm(flomarriage ~ edges + kstar(2),coef=bergm.output(flo_ERGM)$statistics[,1]) #create ergm object to simulate from
+ergm_obj <- ergm(flomarriage ~ edges + kstar(2),coef=c(mean(flo_ERGM$Theta[,1]), mean(flo_ERGM$Theta[,2]))) #create ergm object to simulate from
 sim <- simulate(ergm_obj)
 #create network objects for model
 #net_sim <- asNetwork(as.data.frame(cbind(sim$edge.list,sim$outcome)),directed=FALSE)  # create network objects for ergmm and ergm
