@@ -1,5 +1,9 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Model description}{}% 2
-\BOOKMARK [1][-]{section.3}{Model comparison and selection}{}% 3
-\BOOKMARK [1][-]{section.4}{Replication}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Model Comparison}{section.4}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Latent space modeling of networks}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{The exponential random graph model}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{The stochastic blockmodel}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Additional methods in brief}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Model comparison and selection}{}% 7
+\BOOKMARK [1][-]{section.4}{Replication}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Model Comparison}{section.4}% 9
