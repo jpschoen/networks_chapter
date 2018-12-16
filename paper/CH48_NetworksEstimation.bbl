@@ -1,5 +1,17 @@
 \begin{thebibliography}{xx}
 
+\harvarditem[Asal et~al.]{Asal, Park, Rethemeyer \harvardand\
+  Ackerman}{2016}{asal2016friends}
+Asal, Victor~H, Hyun~Hee Park, R~Karl Rethemeyer \harvardand\ Gary Ackerman.
+  2016.
+\newblock ``With Friends Like These… Why Terrorist Organizations Ally.'' {\em
+  International Public Management Journal} 19(1):1--30.
+
+\harvarditem{Atouba \harvardand\ Shumate}{2015}{atouba2015international}
+Atouba, Yannick~C \harvardand\ Michelle Shumate. 2015.
+\newblock ``International nonprofit collaboration: Examining the role of
+  homophily.'' {\em Nonprofit and Voluntary Sector Quarterly} 44(3):587--608.
+
 \harvarditem[Block et~al.]{Block, Koskinen, Hollway, Steglich \harvardand\
   Stadtfeld}{2018}{block2018change}
 Block, Per, Johan Koskinen, James Hollway, Christian Steglich \harvardand\
@@ -15,10 +27,32 @@ Bond, Robert~M, Christopher~J Fariss, Jason~J Jones, Adam~DI Kramer, Cameron
 \newblock ``A 61-million-person experiment in social influence and political
   mobilization.'' {\em Nature} 489(7415):295.
 
+\harvarditem{Cao}{2012}{cao2012global}
+Cao, Xun. 2012.
+\newblock ``Global networks and domestic policy convergence: A network
+  explanation of policy changes.'' {\em World Politics} 64(3):375--425.
+
+\harvarditem{Chu-Shore}{2010}{chu2010homogenization}
+Chu-Shore, Jesse. 2010.
+\newblock ``Homogenization and Specialization Effects of International Trade:
+  Are Cultural Goods Exceptional?'' {\em World Development} 38(1):37--47.
+
 \harvarditem{Cranmer \harvardand\ Desmarais}{2011}{cranmer2011inferential}
 Cranmer, Skyler~J \harvardand\ Bruce~A Desmarais. 2011.
 \newblock ``Inferential Network Analysis with Exponential Random Graph
   Models.'' {\em Political Analysis} 19(1):66--86.
+
+\harvarditem[Cranmer, Desmarais \harvardand\ Menninga]{Cranmer, Desmarais
+  \harvardand\ Menninga}{2012}{cranmer2012complex}
+Cranmer, Skyler~J, Bruce~A Desmarais \harvardand\ Elizabeth~J Menninga. 2012.
+\newblock ``Complex dependencies in the alliance network.'' {\em Conflict
+  Management and Peace Science} 29(3):279--313.
+
+\harvarditem[Cranmer, Heinrich \harvardand\ Desmarais]{Cranmer, Heinrich
+  \harvardand\ Desmarais}{2014}{cranmer2014reciprocity}
+Cranmer, Skyler~J, Tobias Heinrich \harvardand\ Bruce~A Desmarais. 2014.
+\newblock ``Reciprocity and the structural determinants of the international
+  sanctions network.'' {\em Social Networks} 36:5--22.
 
 \harvarditem{Desmarais \harvardand\ Cranmer}{2012}{desmarais2012micro}
 Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2012.
@@ -26,16 +60,46 @@ Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2012.
   application to estuary networks.'' {\em Policy Studies Journal}
   40(3):402--434.
 
+\harvarditem{Desmarais \harvardand\ Cranmer}{2013}{desmarais2013forecasting}
+Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2013.
+\newblock ``Forecasting the locational dynamics of transnational terrorism: A
+  network analytic approach.'' {\em Security Informatics} 2(1):8.
+
 \harvarditem{Desmarais \harvardand\ Cranmer}{2017}{desmarais2017statistical}
 Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2017.
 \newblock ``Statistical Inference in Political Networks Research.'' {\em The
   Oxford Handbook of Political Networks} p.~203.
+
+\harvarditem{Dorff \harvardand\ Ward}{2013}{dorff2013networks}
+Dorff, Cassy \harvardand\ Michael~D Ward. 2013.
+\newblock ``Networks, dyads, and the social relations model.'' {\em Political
+  Science Research and Methods} 1(2):159--178.
+
+\harvarditem{Dorff \harvardand\ Minhas}{2017}{dorff2017states}
+Dorff, Cassy \harvardand\ Shahryar Minhas. 2017.
+\newblock ``When Do States Say Uncle? Network Dependence and Sanction
+  Compliance.'' {\em International Interactions} 43(4):563--588.
 
 \harvarditem[Dorff, Minhas \harvardand\ Ward]{Dorff, Minhas \harvardand\
   Ward}{2016}{dorff2016latent}
 Dorff, Cassy, Shahryar Minhas \harvardand\ Michael~D Ward. 2016.
 \newblock Latent Networks and Spatial Networks in Politics.  In {\em The Oxford
   Handbook of Political Networks}.
+
+\harvarditem{Dorussen \harvardand\ Ward}{2008}{dorussen2008intergovernmental}
+Dorussen, Han \harvardand\ Hugh Ward. 2008.
+\newblock ``Intergovernmental organizations and the Kantian peace: A network
+  perspective.'' {\em Journal of Conflict Resolution} 52(2):189--212.
+
+\harvarditem{Gallop}{2016}{gallop2016endogenous}
+Gallop, Max~B. 2016.
+\newblock ``Endogenous networks and international cooperation.'' {\em Journal
+  of Peace Research} 53(3):310--324.
+
+\harvarditem{Hoff \harvardand\ Ward}{2004}{hoff2004modeling}
+Hoff, Peter~D \harvardand\ Michael~D Ward. 2004.
+\newblock ``Modeling dependencies in international relations networks.'' {\em
+  Political Analysis} 12(2):160--175.
 
 \harvarditem{Kirkland \harvardand\ Williams}{2014}{kirkland2014partisanship}
 Kirkland, Justin~H \harvardand\ R~Lucas Williams. 2014.
@@ -47,6 +111,19 @@ Kirkland, Justin~H \harvardand\ R~Lucas Williams. 2014.
 Latouche, Pierre, Etienne Birmel{\'e} \harvardand\ Christophe Ambroise. 2011.
 \newblock ``Overlapping stochastic block models with application to the french
   political blogosphere.'' {\em The Annals of Applied Statistics} pp.~309--336.
+
+\harvarditem{Lupu \harvardand\ Greenhill}{2017}{lupu2017networked}
+Lupu, Yonatan \harvardand\ Brian Greenhill. 2017.
+\newblock ``The networked peace: Intergovernmental organizations and
+  international conflict.'' {\em Journal of Peace Research} 54(6):833--848.
+
+\harvarditem[Metternich et~al.]{Metternich, Dorff, Gallop, Weschle \harvardand\
+  Ward}{2013}{metternich2013antigovernment}
+Metternich, Nils~W, Cassy Dorff, Max Gallop, Simon Weschle \harvardand\
+  Michael~D Ward. 2013.
+\newblock ``Antigovernment networks in civil conflicts: How network structures
+  affect conflictual behavior.'' {\em American Journal of Political Science}
+  57(4):892--911.
 
 \harvarditem{Nowicki \harvardand\ Snijders}{2001}{nowicki2001estimation}
 Nowicki, Krzysztof \harvardand\ Tom A~B Snijders. 2001.
@@ -73,5 +150,22 @@ Wang, Cheng, Carter~T Butts, John~R Hipp, Rupa Jose \harvardand\ Cynthia~M
   Lakon. 2016.
 \newblock ``Multiple imputation for missing edge data: A predictive evaluation
   method with application to Add Health.'' {\em Social networks} 45:89--98.
+
+\harvarditem[Ward, Ahlquist \harvardand\ Rozenas]{Ward, Ahlquist \harvardand\
+  Rozenas}{2013}{ward2013gravity}
+Ward, Michael~D, John~S Ahlquist \harvardand\ Arturas Rozenas. 2013.
+\newblock ``Gravity's rainbow: A dynamic latent space model for the world trade
+  network.'' {\em Network Science} 1(1):95--118.
+
+\harvarditem{Ward \harvardand\ Hoff}{2007}{ward2007persistent}
+Ward, Michael~D \harvardand\ Peter~D Hoff. 2007.
+\newblock ``Persistent patterns of international commerce.'' {\em Journal of
+  Peace Research} 44(2):157--175.
+
+\harvarditem[Ward, Siverson \harvardand\ Cao]{Ward, Siverson \harvardand\
+  Cao}{2007}{ward2007disputes}
+Ward, Michael~D, Randolph~M Siverson \harvardand\ Xun Cao. 2007.
+\newblock ``Disputes, democracies, and dependencies: A reexamination of the
+  Kantian peace.'' {\em American Journal of Political Science} 51(3):583--601.
 
 \end{thebibliography}

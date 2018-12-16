@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: CH48_NetworksEstimation.aux
+The style file: apsr.bst
+Database file #1: bibliography.bib
+Warning--empty publisher in dorff2016latent
+You've used 29 entries,
+            2874 wiz_defined-function locations,
+            824 strings with 10147 characters,
+and the built_in function-call counts, 152991 in all, are:
+= -- 25246
+> -- 1958
+< -- 0
++ -- 12114
+- -- 675
+* -- 13395
+:= -- 30191
+add.period$ -- 116
+call.type$ -- 29
+change.case$ -- 377
+chr.to.int$ -- 29
+cite$ -- 30
+duplicate$ -- 452
+empty$ -- 1020
+format.name$ -- 699
+if$ -- 27543
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 29
+newline$ -- 119
+num.names$ -- 350
+pop$ -- 86
+preamble$ -- 1
+purify$ -- 435
+quote$ -- 0
+skip$ -- 408
+stack$ -- 0
+substring$ -- 35975
+swap$ -- 71
+text.length$ -- 406
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 116
+warning$ -- 1
+while$ -- 710
+width$ -- 0
+write$ -- 405
+(There was 1 warning)
