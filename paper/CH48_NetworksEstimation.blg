@@ -1,48 +1,56 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: CH48_NetworksEstimation.aux
 The style file: apsr.bst
 Database file #1: bibliography.bib
+Repeated entry---line 162 of file bibliography.bib
+ : @article{raftery2012fast
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 458 of file bibliography.bib
+ : @article{atouba2015international
+ :                                 ,
+I'm skipping whatever remains of this entry
 Warning--empty publisher in dorff2016latent
-You've used 29 entries,
+You've used 34 entries,
             2874 wiz_defined-function locations,
-            824 strings with 10147 characters,
-and the built_in function-call counts, 152991 in all, are:
-= -- 25246
-> -- 1958
+            847 strings with 10736 characters,
+and the built_in function-call counts, 154159 in all, are:
+= -- 25312
+> -- 1862
 < -- 0
-+ -- 12114
-- -- 675
-* -- 13395
-:= -- 30191
-add.period$ -- 116
-call.type$ -- 29
-change.case$ -- 377
-chr.to.int$ -- 29
-cite$ -- 30
-duplicate$ -- 452
-empty$ -- 1020
-format.name$ -- 699
-if$ -- 27543
++ -- 11957
+- -- 654
+* -- 13307
+:= -- 30715
+add.period$ -- 137
+call.type$ -- 34
+change.case$ -- 442
+chr.to.int$ -- 34
+cite$ -- 35
+duplicate$ -- 532
+empty$ -- 1197
+format.name$ -- 686
+if$ -- 27720
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 29
-newline$ -- 119
-num.names$ -- 350
-pop$ -- 86
+missing$ -- 34
+newline$ -- 140
+num.names$ -- 398
+pop$ -- 111
 preamble$ -- 1
-purify$ -- 435
+purify$ -- 510
 quote$ -- 0
-skip$ -- 408
+skip$ -- 476
 stack$ -- 0
-substring$ -- 35975
-swap$ -- 71
-text.length$ -- 406
+substring$ -- 35873
+swap$ -- 83
+text.length$ -- 476
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
+type$ -- 136
 warning$ -- 1
-while$ -- 710
+while$ -- 823
 width$ -- 0
-write$ -- 405
-(There was 1 warning)
+write$ -- 468
+(There were 2 error messages)
