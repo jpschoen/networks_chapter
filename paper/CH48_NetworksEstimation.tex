@@ -70,13 +70,11 @@ Segmentation SBM is common elsewhere, and should be used more in polisci
 
 The LSM, ERGM, and SBM reflect the core components
 
-
-
 \section{Application of ERGM, LSM, and SBM}
 
-{\bf [John]}: [Background summary of Wojcik paper] 
+{\bf [John]}: [Background summary of Wojcik paper]
 
-For the application we replicate a recent study on the determining factors for when actors form connections in Brazilian legislative networks. The author argues that despite high levels of personalism in Latin American politics, political parties are equally effective in determining actor behavior, indicating that there are higher levels of party discipline than previously thought. 
+For the application we replicate a recent study on the determining factors for when actors form connections in Brazilian legislative networks. The author argues that despite high levels of personalism in Latin American politics, political parties are equally effective in determining actor behavior, indicating that there are higher levels of party discipline than previously thought.
 
 
 {\bf [John]}: [summary of replication/extension]
@@ -107,28 +105,34 @@ clustering
 
 Table of descriptive IV stats
 
-Why each variable is included:
+
+Main hypotheses: 
+Same political party: Parties actively work to form ties within and among members to counter the individualistic tendencies of politicians to increase their own electoral share/power at the expense of the party. The network then creates trust and cohesion among the actors, while also facilitating monitoring.Author expects this will the the stronger driver of the tie formation, rather than individual traits. 
+
+Secondary hypotheses is that similar individual traits drive network ties. 
 
 both are in leadership positions, 
 neither are in leadership positions 
-absolute difference in age
-Same state
-Same political party
-Same education level: (pre-high school, high school, college, and above college)
-Same floor: floor of the building they work on.
+
+absolute difference in age: similar age will drive politicians to form connections based on shared experiences. 
+
+Same state: proportional voting system in Brazil means that coordination among members in the same states is necessary to exchange information about what the local needs are. 
+
+Same education level: (pre-high school, high school, college, and above college): likely to have similar knowledge and social class, which increases the change of network ties. 
+
+Same floor: floor of the building they work on: creates opportunity for interaction.
 
 
 \subsection{Replication design}
 
  {\bf [John]}: [One paragraph reviewing the model specification in the original paper, explaining the transitive ties term ]
  
+The models is specified in the article to include a intercept term, the exogenous covariates, and a term for transitive ties, or the change in the likelihood of a tie between two nodes given the presence of a two-path or a triad closure. A two-path between nodes $i$ and $j$ is defined as  node $i$ having a directed edge path to node $k$ and node $k$ having a directed edge to node $j$, thus you can find a connection between the nodes with only two edges.
  
 
- {\bf [John]}: [One paragraph describing how we extend the application to use both the LSM and the SBM ]
+ {\bf [John]}: [One paragraph describing how we extend the application to use both the LSM and the SBM]
 
-LSM does not include transitive ties
-
-SBM does not include a constant term because it is. Also does not have network terms like transitivity
+For the LSM model, the specification is the same except it does not include the include a transitive ties term. This is because the model does not have network statistics as an ERGM model does, but instead we specify the latent space effects that models higher order dependences. For our extensions we use the euclidean distance model term that is equal to the negative euclidean distance between actors in the unobserved social space. We estimated the term along two dimensions and across two blocks. The SBM does not include a constant term as the block or group effect takes the place of the intercept term. It also does not have network terms like transitive ties as it accounts for dependencies using the latent space along a multinomial distribution to determine block membership for the nodes. 
 
 
 \subsection{Results}
