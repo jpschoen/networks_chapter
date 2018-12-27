@@ -10,7 +10,9 @@
 \usepackage[final]{pdfpages}
 \setboolean{@twoside}{false}
 \linespread{1}
-
+\usepackage{booktabs,tabularx}
+\usepackage[input-decimal-markers=.]{siunitx}
+\usepackage{lipsum}
 
 
 
@@ -92,18 +94,70 @@ Also collected biographic info on those that complete the survey to look for any
 
 {\bf [John]}: [One paragraph providing descriptive statistics on the dependent variable network, perhaps include a network plot]
 
-Table of descriptive DV stats and plots
+\begin{table}[!htbp] \centering
+  \caption{Summary Statistics: DVs}
+  \label{}
+\begin{tabular}{@{\extracolsep{5pt}} lccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+Network & Measurement & Global Value & Mean & s.d. & Max  \\
+\hline \\[-1.8ex]
+Communication& Edge Density & $0.008$ & $NA$ & $NA$& $NA$\\
+Communication& Degree Distribution & $NA$ & $3.307$ & $3.020$  & $18.000$\\
+Communication& Centrality & $0.072$ & $204.588$ & $448.319$  &$3009.852$ \\
+Communication& Reciprocity  & $0.255$ & $NA$ & $NA$ &$NA$\\
+Communication& Transitivity  & $0.108$ & $NA$ & $NA$ &$NA$\\
+\hline \\[-1.8ex]
 
-density
-degree distribution
-reciprocity
-centrality
-clustering
+Social& Edge Density & $0.006$ & $NA$ & $NA$ &$NA$\\
+Social& Degree Distribution & $NA$ & $2.482$ & $2.254$  & $11.000$\\
+Social& Centrality & $0.025$ & $103.633$ & $222.925$  & $1009.333$\\
+Social& Reciprocity  & $0.203$ & $NA$ & $NA$ &$NA$\\
+Social& Transitivity  & $0.119$ & $NA$ & $NA$ &$NA$\\
+\hline \\[-1.8ex]
+
+Info Exchange& Edge Density & $0.009$ & $NA$ & $NA$ &$NA$\\
+Info Exchange& Degree Distribution & $NA$ & $$-$0.348$ & $$-$0.391$  & $6.000$\\
+Info Exchange& Centrality & $0.001$ & $0.880$ & $1.930$ & $10.000$\\
+Info Exchange& Reciprocity  & $0.157$ & $NA$ & $NA$&$NA$\\
+Info Exchange& Transitivity  & $ 0.135$ & $NA$ & $NA$&$NA$\\
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
 
 
  {\bf [John]}: [One paragraph reviewing the independent variables in the analysis, perhaps include a table of descriptive data]
 
-Table of descriptive IV stats
+\begin{table}[!htbp] \centering
+  \caption{Summary Statistics: IVs}
+  \label{}
+\begin{tabular}{@{\extracolsep{5pt}} lccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+ &  \multicolumn{3}{c}{Proportion} \\
+\hline \\[-1.8ex]
+Variable & Communication & Social & Info Exchange\\
+\hline \\[-1.8ex]
+
+Same Education Level  & $71\%$ & $70\%$ & $74\%$\\
+Same Floor  & $10\%$ & $10\%$ & $12\%$\\
+Both Leadership & $6\%$ & $7\%$ & $6\%$\\
+Both non-Leadership & $10\%$ & $10\%8$ & $14\%$\\
+Same State  & $10\%$ & $70\%$ & $74\%$\\
+Same Party & $46\%$ & $10\%$ & $12\%$\\
+\hline \\[-1.8ex]
+ &  \multicolumn{3}{c}{Average} \\
+\hline \\[-1.8ex]
+$\Delta$ Age & $12$ & $12$ & $13$\\
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+\end{tabular}
+
+\end{table}
+
+
+
 
 
 Main hypotheses: 
