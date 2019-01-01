@@ -76,21 +76,18 @@ The LSM, ERGM, and SBM reflect the core components
 
 {\bf [John]}: [Background summary of Wojcik paper]
 
-For the application we replicate a recent study on the determining factors for when actors form connections in Brazilian legislative networks. The author argues that despite high levels of personalism in Latin American politics, political parties are equally effective in determining actor behavior, indicating that there are higher levels of party discipline than previously thought.
+For the application we replicate a recent study on the determining factors for when actors form directed connections in Brazilian legislative networks. The author argues that despite high levels of personalism in Latin American politics, political parties are equally effective in determining actor behavior, indicating that there are higher levels of party discipline than previously thought.
 
 
 {\bf [John]}: [summary of replication/extension]
 
-In addition to replicating the ERGM models in the article, we also fit the three models using latent space models and stochastic block models. We use the R software package \texttt{ergm} to replicate the ERGM models, \texttt{latentnet} for the LSMs, and \texttt{CIDnetworks} for the SBMs.  We fit models using 2 to 5 blocks for the SBMs. In general we find that results from all the models match the general conclusions of the paper. Below I explain the data from the study, the model specifications, and the results in more detail.
+In addition to replicating the ERGM models in the article, we also fit the three models using latent space models and stochastic block models. We use the R software package \texttt{ergm} to replicate the ERGM models, \texttt{latentnet} for the LSMs, and \texttt{CIDnetworks} for the SBMs.  We fit models using 2 to 5 blocks for the SBMs and report the model results that has the lowest DIC. In general we find that results from all the models match the general conclusions of the paper. Below I explain the data from the study, the model specifications, and the results in more detail.
 
 \subsection{Data from wojcik2017legislative}
 
 {\bf [John]}: [One paragraph reviewing how wojcik gathered dependent variable network] 
 
-interactive digital Survey by office managers for Brazilian equivalent of House of Representatives in US. for three different types of connections: communication on legislative issues, socialize about non legislative issues, and information to resolve questions about legislative proposals/procedures.
-Also collected biographic info on those that complete the survey to look for any identifiable biases.  Compared traits of sample to that of the entire Congress and found no identifiable difference.
-
-25\% response rate. Filled in missing data with pen and paper survey from 2013.
+To collect the network data the author distributed an interactive digital survey to office managers for the Brazilian equivalent of US House of Representatives. The three different types of connections surveyed were communication on legislative issues, socialization about non legislative issues, and information gathering to resolve questions about legislative proposals/procedures. The author also collected biographic information on those that completed the survey to look for any identifiable biases and compared traits of sample to that of the entire Congress, finding no identifiable differences. The survey had a 25\% response rate, and missing data was filled in using results from a pen and paper survey from 2013.
 
 {\bf [John]}: [One paragraph providing descriptive statistics on the dependent variable network, perhaps include a network plot]
 
@@ -157,24 +154,12 @@ $\Delta$ Age & $12$ & $12$ & $13$\\
 \end{table}
 
 
+\subsection{Models from wojcik2017legislative}
 
 
+The main hypotheses of the paper is that parties actively work to form ties within and among members to counter the individualistic tendencies of politicians to increase their own electoral share/power at the expense of the party. The network then creates trust and cohesion among the actors, while also facilitating monitoring. The author expects that this will the the stronger driver of the tie formation, rather than individual traits. 
 
-Main hypotheses: 
-Same political party: Parties actively work to form ties within and among members to counter the individualistic tendencies of politicians to increase their own electoral share/power at the expense of the party. The network then creates trust and cohesion among the actors, while also facilitating monitoring.Author expects this will the the stronger driver of the tie formation, rather than individual traits. 
-
-Secondary hypotheses is that similar individual traits drive network ties. 
-
-both are in leadership positions, 
-neither are in leadership positions 
-
-absolute difference in age: similar age will drive politicians to form connections based on shared experiences. 
-
-Same state: proportional voting system in Brazil means that coordination among members in the same states is necessary to exchange information about what the local needs are. 
-
-Same education level: (pre-high school, high school, college, and above college): likely to have similar knowledge and social class, which increases the change of network ties. 
-
-Same floor: floor of the building they work on: creates opportunity for interaction.
+The secondary hypotheses of the paper is that similar individual traits drive network ties. The author includes five different traits. The first is that when politicians are both in leadership positions they will need to interact more, but when neither are in leadership positions they will not need to interact with one another and can rely on party leaders. The second is that when politicians have similar ages they will form connections based on shared experiences.  The third is that when politicians are from the same state they will form connections since there is a proportional voting system in Brazil and that means that coordination among members in the same states is necessary to exchange information about what the local needs are. The fourth is that politicians with the same education level are likely to have similar knowledge and social class, which increases the change of network ties. The fifth is that when politicians work on the same floor this creates opportunity for interaction.
 
 
 \subsection{Replication design}
@@ -195,30 +180,19 @@ For the LSM model, the specification is the same except it does not include the 
 
 The results from the LSMs indicate that the latent space explains less of the variation in the ties than the network statistics in ERGMs, as the coefficients for exogenous covariates, while signed the same, are mostly larger in magnitude. One exception is that the node match variables for leadership where in model 1 the effect size is slightly larger, but in model 3 the effect size is nearly one-third smaller. Also, the changes are smaller for the leadership variables than the other variables.\\
 
+The results from the SBMs indicate that the latent space explains more of the variation in the ties than the network statistics in ERGMs, as the coefficients for exogenous covariates, while signed the same, are mostly smaller in magnitude. Also, the coefficient estimates have smaller standard errors relative to the size of the estimate.
 
 
  {\bf [John]}: [1--2 paragraphs discussing the latent structure in the LSM and SBM (i.e., visuals of the LSM estimates, distribution of nodes by blocks in the SBMs) ]
 
+The latent space plots (Tables \ref{fig:LSM_plot_1} to  \ref{fig:LSM_plot_3}) show that the clusters are not distinct from one another, but rather there are inside groups that form clusters and each subsequent group are nodes that are less central to the graph. In Table \ref{fig:SBM_plot_1} for the SBM for communication ties, we see that the blocks are fairly evenly distributed, but that most nodes are not cleanly part of only one block. In Table \ref{fig:SBM_plot_2} this shared membership is even starker for the social networks. However, for the information network in Table  \ref{fig:SBM_plot_3} membership is sharply separated and concentrated in one block.
 
 
 
 
 
 
-\begin{longtable}[!h]{c@{\hskip 0cm}c}
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m1.pdf}   \\
-\caption{\label{fig:LSM_plot_1} Latent Space positions for LSM.}
-\end{longtable}
 
-\begin{longtable}[!h]{c@{\hskip 0cm}c}
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m2.pdf}   \\
-\caption{\label{fig:LSM_plot_2} Latent Space positions for LSM.}
-\end{longtable}
-
-\begin{longtable}[!h]{c@{\hskip 0cm}c}
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m3.pdf}   \\
-\caption{\label{fig:LSM_plot_3} Latent Space positions for LSM.}
-\end{longtable}
 
 
 
@@ -236,36 +210,37 @@ The results from the LSMs indicate that the latent space explains less of the va
 \hline
  & Model 1 & Model 2 & Model 3 \\
 \hline
- edges & $-$5.670$^{***}$ & $-$6.070$^{***}$ & $-$5.742$^{***}$ \\ 
+Edges (intercept)   & $-$5.670$^{***}$ & $-$6.070$^{***}$ & $-$5.742$^{***}$ \\ 
   & (0.162) & (0.185) & (0.445) \\ 
   & & & \\ 
- absdiff.age & $-$0.021$^{***}$ & $-$0.024$^{***}$ & $-$0.063$^{***}$ \\ 
+$\Delta$ Age & $-$0.021$^{***}$ & $-$0.024$^{***}$ & $-$0.063$^{***}$ \\ 
   & (0.007) & (0.008) & (0.022) \\ 
   & & & \\ 
- nodematch.education & 0.164 & 0.161 & 0.600$^{*}$ \\ 
+Same Education Level & 0.164 & 0.161 & 0.600$^{*}$ \\ 
   & (0.125) & (0.144) & (0.334) \\ 
   & & & \\ 
- nodematch.floor & 0.756$^{***}$ & 1.373$^{***}$ & 0.794$^{**}$ \\ 
+Same Floor & 0.756$^{***}$ & 1.373$^{***}$ & 0.794$^{**}$ \\ 
   & (0.153) & (0.141) & (0.390) \\ 
   & & & \\ 
- nodematch.leadership.FALSE & $-$0.655$^{***}$ & $-$0.241$^{*}$ & $-$0.805$^{**}$ \\ 
+Both non-leadership & $-$0.655$^{***}$ & $-$0.241$^{*}$ & $-$0.805$^{**}$ \\ 
   & (0.125) & (0.139) & (0.337) \\ 
   & & & \\ 
- nodematch.leadership. & 0.534$^{***}$ & 0.473$^{**}$ & 0.837$^{**}$ \\ 
+Both leadership & 0.534$^{***}$ & 0.473$^{**}$ & 0.837$^{**}$ \\ 
   & (0.164) & (0.206) & (0.396) \\ 
   & & & \\ 
- nodematch.UF & 2.121$^{***}$ & 2.106$^{***}$ & 0.989$^{**}$ \\ 
+Same State & 2.121$^{***}$ & 2.106$^{***}$ & 0.989$^{**}$ \\ 
   & (0.124) & (0.140) & (0.431) \\ 
   & & & \\ 
- nodematch.party & 2.319$^{***}$ & 2.051$^{***}$ & 2.958$^{***}$ \\ 
+Same Party & 2.319$^{***}$ & 2.051$^{***}$ & 2.958$^{***}$ \\ 
   & (0.123) & (0.135) & (0.343) \\ 
   & & & \\ 
- transitiveties & 0.661$^{***}$ & 0.901$^{***}$ & 0.568 \\ 
+ Transitive ties & 0.661$^{***}$ & 0.901$^{***}$ & 0.568 \\ 
   & (0.123) & (0.139) & (0.399) \\ 
   & & & \\ 
 \hline \\[-1.8ex] 
 Akaike Inf. Crit. & 3,056.153 & 2,281.901 & 466.732 \\ 
-Bayesian Inf. Crit. & 3,133.387 & 2,358.395 & 526.326 \\ 
+Bayesian Inf. Crit. & 3,133.387 & 2,358.395 & 526.326 \\
+$N$ & 39,402 & 36,290 & 5550 \\  
 \hline
 \multicolumn{4}{l}{\scriptsize{Note: {$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}}}
 \end{tabular}
@@ -282,84 +257,119 @@ Bayesian Inf. Crit. & 3,133.387 & 2,358.395 & 526.326 \\
 \hline
  & Model 1 & Model 2 & Model 3 \\
 \hline
-edges                      & $-3.10^{*}$       & $-3.00^{*}$       & $-3.12^{*}$       \\
-                           & $[-3.28;\ -2.91]$ & $[-3.55;\ -2.41]$ & $[-4.35;\ -1.92]$ \\
-absdiff.age                & $-0.03^{*}$       & $-0.04^{*}$       & $-0.08^{*}$       \\
-                           & $[-0.04;\ -0.01]$ & $[-0.06;\ -0.02]$ & $[-0.13;\ -0.03]$ \\
-nodematch.education        & $0.22^{*}$        & $0.35^{*}$        & $0.93^{*}$        \\
-                           & $[0.15;\ 0.27]$   & $[0.20;\ 0.53]$   & $[0.11;\ 1.81]$   \\
-nodematch.floor            & $1.02^{*}$        & $1.53^{*}$        & $1.16^{*}$        \\
-                           & $[0.70;\ 1.28]$   & $[1.51;\ 1.55]$   & $[0.25;\ 2.17]$   \\
-nodematch.leadership.FALSE & $-0.82^{*}$       & $-0.28^{*}$       & $-0.82^{*}$       \\
-                           & $[-0.92;\ -0.71]$ & $[-0.45;\ -0.01]$ & $[-1.68;\ -0.04]$ \\
-nodematch.leadership.TRUE  & $0.61^{*}$        & $0.44$            & $0.64$            \\
-                           & $[0.60;\ 0.62]$   & $[-0.10;\ 1.06]$  & $[-0.39;\ 1.61]$  \\
-nodematch.UF               & $2.75^{*}$        & $2.56^{*}$        & $1.31^{*}$        \\
-                           & $[2.61;\ 3.02]$   & $[2.23;\ 2.92]$   & $[0.08;\ 2.71]$   \\
-nodematch.party            & $2.86^{*}$        & $2.30^{*}$        & $3.47^{*}$        \\
-                           & $[2.65;\ 3.09]$   & $[2.24;\ 2.37]$   & $[2.73;\ 4.32]$   \\
+Edges (intercept)                      & $-3.10^{***}$       & $-3.00^{***}$       & $-3.12^{***}$       \\
+  & (0.094) & (0.291) & (0.620) \\ 
+  & & & \\ 
+$\Delta$ Age                & $-0.03^{***}$       & $-0.04^{***}$       & $-0.08^{***}$       \\
+  & (0.008) & (0.010) & (0.026) \\ 
+  & & & \\ 
+Same Education Level        & $0.22^{***}$        & $0.35^{***}$        & $0.93^{**}$        \\
+  & (0.031) & (0.084) & (0.433) \\ 
+  & & & \\ 
+Same Floor            & $1.02^{***}$        & $1.53^{***}$        & $1.16^{**}$        \\
+  & (0.148) & (0.010) & (0.490) \\ 
+  & & & \\ 
+Both non-leadership  & $-0.82^{***}$       & $-0.28^{**}$       & $-0.82^{**}$       \\
+  & (0.054) & (0.112) & (0.418) \\ 
+  & & & \\ 
+Both leadership  & $0.61^{***}$        & $0.44$            & $0.64$            \\
+  & (0.005) & (0.296) & (0.510) \\ 
+  & & & \\ 
+Same State               & $2.75^{***}$        & $2.56^{***}$        & $1.31^{*}$        \\
+  & (0.105) & (0.176) & (0.671) \\ 
+  & & & \\ 
+Same Party            & $2.86^{***}$        & $2.30^{***}$        & $3.47^{***}$        \\
+  & (0.112) & (0.033) & (0.406) \\ 
+  & & & \\ 
 \hline
 BIC (Overall)              & 3589.51           & 2885.59           & 770.67            \\
 BIC (Likelihood)           & 2544.96           & 1879.84           & 376.27            \\
 BIC (Latent Positions)     & 1044.54           & 1005.75           & 394.40            \\
+d = Latent Dimensions / G = $n$ Clusters & d=2, G=3 & d=2, G=3 & d=2, G=2\\
+$N$ & 39,402 & 36,290 & 5,550 \\  
 \hline
-\multicolumn{4}{l}{\scriptsize{$^*$ 0 outside the confidence interval}}
+\multicolumn{4}{l}{\scriptsize{Note: {$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}}}
 \end{tabular}
-\caption{Statistical models}
-\label{table:coefficients}
+\caption{LSM Results}
+\label{table:LSM_coefficients}
 \end{center}
 \end{table}
 
 
-\clearpage
+\begin{table}
+\begin{center}
+\begin{tabular}{l c c c }
+\hline
+ & Model 1 & Model 2 & Model 3 \\
+\hline
+$\Delta$ Age & $-$0.014$^{***}$ & $-$0.013$^{***}$ & $-$-0.035$^{***}$ \\ 
+  & (0.003) & (0.003) & (0.009) \\ 
+  & & & \\ 
+Same Education Level & 0.143$^{**}$ & 0.081 & 0.293$^{**}$ \\ 
+  & (0.057) & (0.070) & (0.150) \\ 
+  & & & \\ 
+Same Floor & 0.316$^{***}$ & 0.632$^{***}$ & 0.430$^{**}$ \\ 
+  & (0.067) & (0.067) & (0.168) \\ 
+  & & & \\ 
+Both non-leadership  & $-$0.277$^{***}$ & $-$0.131$^{**}$ & $-$0.407$^{***}$ \\ 
+  & (0.053) & (0.064) & (0.140) \\ 
+  & & & \\ 
+Both leadership & 0.212$^{***}$ & 0.196$^{**}$ & 0.340$^{**}$ \\ 
+  & (0.073) & (0.099) & (0.174) \\ 
+  & & & \\ 
+Same State & 1.049$^{***}$ & 1.036$^{***}$ & 0.456$^{**}$ \\ 
+  & (0.058) & (0.067) & (0.201) \\ 
+  & & & \\ 
+Same Party & 1.085$^{***}$ & 0.9871$^{***}$ &1.360$^{***}$ \\ 
+  & (0.053) & (0.065) & (0.141) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Deviance Inf. Crit. & 2,818.370 & 2164.976 & 460.616 \\ 
+$N$ blocks & 3 & 2 & 3 \\ 
+$N$ & 39,402 & 36,290 & 5,550 \\  
+\hline
+\multicolumn{4}{l}{\scriptsize{Note: {$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}}}
+\end{tabular}
+\caption{SBM results}
+\label{table:SBM_coefficients}
+\end{center}
+\end{table}
+
+
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Age, Absolute Difference \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots1/age.pdf} \\
-\caption{\label{fig:SBM_plot_pref} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m1.pdf}   \\
+\caption{\label{fig:LSM_plot_1} Latent Space positions for LSM.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Education, node match \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots1/education.pdf}   \\
-\caption{\label{fig:SBM_plot_gov} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m2.pdf}   \\
+\caption{\label{fig:LSM_plot_2} Latent Space positions for LSM.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Office floor, nodematch \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots1/floor.pdf}   \\
-\caption{\label{fig:SBM_plot_sci} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m3.pdf}   \\
+\caption{\label{fig:LSM_plot_3} Latent Space positions for LSM.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Not Leadership, nodematch \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots1/leadership_f.pdf}   \\
-\caption{\label{fig:SBM_plot_com} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.4\textheight, clip=true, trim=0cm 0cm 0cm 0cm]{figures/SBM_m1}   \\
+\caption{\label{fig:SBM_plot_1} Block positions for SBM 1.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-In Leadership, nodematch \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots1/leadership.pdf}   \\
-\caption{\label{fig:SBM_plot_nwsci} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.4\textheight, clip=true, trim=0cm 0cm 0cm 0cm]{figures/SBM_m2}   \\
+\caption{\label{fig:SBM_plot_2} Block positions for SBM 2.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-State, nodematch \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots1/UF.pdf}   \\
-\caption{\label{fig:SBM_plot_nwpol} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.4\textheight, clip=true, trim=0cm 0cm 0cm 0cm]{figures/SBM_m3}   \\
+\caption{\label{fig:SBM_plot_3} Block positions for SBM 3.}
 \end{longtable}
 
-\clearpage
-\begin{longtable}[!h]{c@{\hskip 0cm}c}
-Political Party, nodematch \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots1/party.pdf}   \\
-\caption{\label{fig:SBM_plot_igig} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
-\end{longtable}
 
+
+
+\clearpage
 
 \bibliographystyle{apsr}
 \bibliography{bibliography}
