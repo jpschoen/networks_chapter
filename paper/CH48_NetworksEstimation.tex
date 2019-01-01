@@ -143,9 +143,9 @@ Variable & Communication & Social & Info Exchange\\
 Same Education Level  & $71\%$ & $70\%$ & $74\%$\\
 Same Floor  & $10\%$ & $10\%$ & $12\%$\\
 Both Leadership & $6\%$ & $7\%$ & $6\%$\\
-Both non-Leadership & $10\%$ & $10\%8$ & $14\%$\\
-Same State  & $10\%$ & $70\%$ & $74\%$\\
-Same Party & $46\%$ & $10\%$ & $12\%$\\
+Both non-Leadership & $10\%$ & $10\%$ & $14\%$\\
+Same State  & $10\%$ & $9\%$ & $12\%$\\
+Same Party & $46\%$ & $50\%$ & $43\%$\\
 \hline \\[-1.8ex]
  &  \multicolumn{3}{c}{Average} \\
 \hline \\[-1.8ex]
@@ -186,15 +186,47 @@ The models is specified in the article to include a intercept term, the exogenou
 
  {\bf [John]}: [One paragraph describing how we extend the application to use both the LSM and the SBM]
 
-For the LSM model, the specification is the same except it does not include the include a transitive ties term. This is because the model does not have network statistics as an ERGM model does, but instead we specify the latent space effects that models higher order dependences. For our extensions we use the euclidean distance model term that is equal to the negative euclidean distance between actors in the unobserved social space. We estimated the term along two dimensions and across two blocks. The SBM does not include a constant term as the block or group effect takes the place of the intercept term. It also does not have network terms like transitive ties as it accounts for dependencies using the latent space along a multinomial distribution to determine block membership for the nodes. 
+For the LSM model, the specification is the same except it does not include the include a transitive ties term. This is because the model does not have network statistics as an ERGM model does, but instead we specify the latent space effects that models higher order dependences. For our extensions we use the euclidean distance model term that is equal to the negative euclidean distance between actors in the unobserved social space. We estimated the term along two dimensions and across three clusters. The SBM does not include a constant term as the block or group effect takes the place of the intercept term. It also does not have network terms like transitive ties as it accounts for dependencies using the latent space along a multinomial distribution to determine block membership for the nodes. 
 
 
 \subsection{Results}
 
  {\bf [John]}: [1--2 paragraphs discussing covariate results that are consistent and/or different across the ERGM LSM, and SBM. ]
 
+The results from the LSMs indicate that the latent space explains less of the variation in the ties than the network statistics in ERGMs, as the coefficients for exogenous covariates, while signed the same, are mostly larger in magnitude. One exception is that the node match variables for leadership where in model 1 the effect size is slightly larger, but in model 3 the effect size is nearly one-third smaller. Also, the changes are smaller for the leadership variables than the other variables.\\
+
+
 
  {\bf [John]}: [1--2 paragraphs discussing the latent structure in the LSM and SBM (i.e., visuals of the LSM estimates, distribution of nodes by blocks in the SBMs) ]
+
+
+
+
+
+
+
+\begin{longtable}[!h]{c@{\hskip 0cm}c}
+\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m1.pdf}   \\
+\caption{\label{fig:LSM_plot_1} Latent Space positions for LSM.}
+\end{longtable}
+
+\begin{longtable}[!h]{c@{\hskip 0cm}c}
+\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m2.pdf}   \\
+\caption{\label{fig:LSM_plot_2} Latent Space positions for LSM.}
+\end{longtable}
+
+\begin{longtable}[!h]{c@{\hskip 0cm}c}
+\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m3.pdf}   \\
+\caption{\label{fig:LSM_plot_3} Latent Space positions for LSM.}
+\end{longtable}
+
+
+
+
+
+
+
+
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Mon, Dec 17, 2018 - 20:18:54
@@ -244,36 +276,36 @@ Bayesian Inf. Crit. & 3,133.387 & 2,358.395 & 526.326 \\
 
 
 
-\begin{table}
+\begin{table} 
 \begin{center}
 \begin{tabular}{l c c c }
 \hline
  & Model 1 & Model 2 & Model 3 \\
 \hline
-edges                      & $-3.42^{*}$       & $-3.13^{*}$       & $-3.16^{*}$       \\
-                           & $[-3.66;\ -3.21]$ & $[-3.64;\ -2.65]$ & $[-4.20;\ -2.08]$ \\
-absdiff.age                & $-0.02^{*}$       & $-0.04^{*}$       & $-0.07^{*}$       \\
-                           & $[-0.03;\ -0.02]$ & $[-0.06;\ -0.03]$ & $[-0.11;\ -0.03]$ \\
-nodematch.education        & $0.62^{*}$        & $0.29$            & $0.95^{*}$        \\
-                           & $[0.61;\ 0.62]$   & $[-0.10;\ 0.72]$  & $[0.02;\ 1.82]$   \\
-nodematch.floor            & $1.04^{*}$        & $1.65^{*}$        & $1.19^{*}$        \\
-                           & $[1.02;\ 1.06]$   & $[1.61;\ 1.71]$   & $[0.25;\ 2.09]$   \\
-nodematch.leadership.FALSE & $-0.80^{*}$       & $-0.19^{*}$       & $-0.80^{*}$       \\
-                           & $[-1.08;\ -0.61]$ & $[-0.19;\ -0.19]$ & $[-1.65;\ -0.10]$ \\
-nodematch.leadership.TRUE  & $1.03^{*}$        & $0.57^{*}$        & $0.29^{*}$        \\
-                           & $[0.95;\ 1.08]$   & $[0.51;\ 0.60]$   & $[0.10;\ 0.44]$   \\
-nodematch.UF               & $2.79^{*}$        & $3.07^{*}$        & $1.44^{*}$        \\
-                           & $[2.79;\ 2.79]$   & $[2.99;\ 3.13]$   & $[1.14;\ 1.71]$   \\
-nodematch.party            & $2.99^{*}$        & $2.58^{*}$        & $3.40^{*}$        \\
-                           & $[2.99;\ 3.00]$   & $[2.58;\ 2.58]$   & $[2.60;\ 4.17]$   \\
+edges                      & $-3.10^{*}$       & $-3.00^{*}$       & $-3.12^{*}$       \\
+                           & $[-3.28;\ -2.91]$ & $[-3.55;\ -2.41]$ & $[-4.35;\ -1.92]$ \\
+absdiff.age                & $-0.03^{*}$       & $-0.04^{*}$       & $-0.08^{*}$       \\
+                           & $[-0.04;\ -0.01]$ & $[-0.06;\ -0.02]$ & $[-0.13;\ -0.03]$ \\
+nodematch.education        & $0.22^{*}$        & $0.35^{*}$        & $0.93^{*}$        \\
+                           & $[0.15;\ 0.27]$   & $[0.20;\ 0.53]$   & $[0.11;\ 1.81]$   \\
+nodematch.floor            & $1.02^{*}$        & $1.53^{*}$        & $1.16^{*}$        \\
+                           & $[0.70;\ 1.28]$   & $[1.51;\ 1.55]$   & $[0.25;\ 2.17]$   \\
+nodematch.leadership.FALSE & $-0.82^{*}$       & $-0.28^{*}$       & $-0.82^{*}$       \\
+                           & $[-0.92;\ -0.71]$ & $[-0.45;\ -0.01]$ & $[-1.68;\ -0.04]$ \\
+nodematch.leadership.TRUE  & $0.61^{*}$        & $0.44$            & $0.64$            \\
+                           & $[0.60;\ 0.62]$   & $[-0.10;\ 1.06]$  & $[-0.39;\ 1.61]$  \\
+nodematch.UF               & $2.75^{*}$        & $2.56^{*}$        & $1.31^{*}$        \\
+                           & $[2.61;\ 3.02]$   & $[2.23;\ 2.92]$   & $[0.08;\ 2.71]$   \\
+nodematch.party            & $2.86^{*}$        & $2.30^{*}$        & $3.47^{*}$        \\
+                           & $[2.65;\ 3.09]$   & $[2.24;\ 2.37]$   & $[2.73;\ 4.32]$   \\
 \hline
-BIC (Overall)              & 3598.75           & 2936.78           & 750.59            \\
-BIC (Likelihood)           & 2514.75           & 1839.25           & 385.66            \\
-BIC (Latent Positions)     & 1084.00           & 1097.53           & 364.93            \\
+BIC (Overall)              & 3589.51           & 2885.59           & 770.67            \\
+BIC (Likelihood)           & 2544.96           & 1879.84           & 376.27            \\
+BIC (Latent Positions)     & 1044.54           & 1005.75           & 394.40            \\
 \hline
 \multicolumn{4}{l}{\scriptsize{$^*$ 0 outside the confidence interval}}
 \end{tabular}
-\caption{LSM results}
+\caption{Statistical models}
 \label{table:coefficients}
 \end{center}
 \end{table}

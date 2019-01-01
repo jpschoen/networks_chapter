@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  27 DEC 2018 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  31 DEC 2018 21:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1406,122 +1406,147 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+<figures/LSM_m1.pdf, id=163, 614.295pt x 794.97pt>
+File: figures/LSM_m1.pdf Graphic file (type pdf)
+ <use figures/LSM_m1.pdf>
+Package pdftex.def Info: figures/LSM_m1.pdf used on input line 209.
+(pdftex.def)             Requested size: 393.04326pt x 500.19945pt.
+
+[6] <figures/LSM_m2.pdf, id=171, 614.295pt x 794.97pt>
+File: figures/LSM_m2.pdf Graphic file (type pdf)
+
+<use figures/LSM_m2.pdf>
+Package pdftex.def Info: figures/LSM_m2.pdf used on input line 214.
+(pdftex.def)             Requested size: 393.04326pt x 500.19945pt.
+ [7 <./figures/LSM_m1.pdf>]
+<figures/LSM_m3.pdf, id=187, 614.295pt x 794.97pt>
+File: figures/LSM_m3.pdf Graphic file (type pdf)
+ <use figures/LSM_m3.pdf>
+Package pdftex.def Info: figures/LSM_m3.pdf used on input line 219.
+(pdftex.def)             Requested size: 393.04326pt x 500.19945pt.
+
+[8 <./figures/LSM_m2.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 238.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 270.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 238.
- [6] [7] [8] <figures/rl_plots1/age.pdf, id=182, 722.7pt x 722.7pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 270.
+ [9 <./figures/LSM_m3.pdf>] [10] [11]
+<figures/rl_plots1/age.pdf, id=227, 722.7pt x 722.7pt>
 File: figures/rl_plots1/age.pdf Graphic file (type pdf)
 
 <use figures/rl_plots1/age.pdf>
-Package pdftex.def Info: figures/rl_plots1/age.pdf used on input line 285.
+Package pdftex.def Info: figures/rl_plots1/age.pdf used on input line 317.
 (pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
 
-Overfull \hbox (18.08142pt too wide) in alignment at lines 283--287
- [] [] 
- []
-
-[9
-
- <./figures/rl_plots1/age.pdf>]
-<figures/rl_plots1/education.pdf, id=197, 722.7pt x 722.7pt>
-File: figures/rl_plots1/education.pdf Graphic file (type pdf)
-
-<use figures/rl_plots1/education.pdf>
-Package pdftex.def Info: figures/rl_plots1/education.pdf used on input line 292
-.
-(pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
-
-Overfull \hbox (18.08142pt too wide) in alignment at lines 290--294
- [] [] 
- []
-
-[10
-
- <./figures/rl_plots1/education.pdf>]
-<figures/rl_plots1/floor.pdf, id=212, 722.7pt x 722.7pt>
-File: figures/rl_plots1/floor.pdf Graphic file (type pdf)
-
-<use figures/rl_plots1/floor.pdf>
-Package pdftex.def Info: figures/rl_plots1/floor.pdf used on input line 299.
-(pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
-
-Overfull \hbox (18.08142pt too wide) in alignment at lines 297--301
- [] [] 
- []
-
-[11
-
- <./figures/rl_plots1/floor.pdf>]
-<figures/rl_plots1/leadership_f.pdf, id=227, 722.7pt x 722.7pt>
-File: figures/rl_plots1/leadership_f.pdf Graphic file (type pdf)
-
-<use figures/rl_plots1/leadership_f.pdf>
-Package pdftex.def Info: figures/rl_plots1/leadership_f.pdf used on input line 
-306.
-(pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
-
-Overfull \hbox (18.08142pt too wide) in alignment at lines 304--308
+Overfull \hbox (18.08142pt too wide) in alignment at lines 315--319
  [] [] 
  []
 
 [12
 
- <./figures/rl_plots1/leadership_f.pdf>]
-<figures/rl_plots1/leadership.pdf, id=242, 722.7pt x 722.7pt>
-File: figures/rl_plots1/leadership.pdf Graphic file (type pdf)
+ <./figures/rl_plots1/age.pdf>]
+<figures/rl_plots1/education.pdf, id=242, 722.7pt x 722.7pt>
+File: figures/rl_plots1/education.pdf Graphic file (type pdf)
 
-<use figures/rl_plots1/leadership.pdf>
-Package pdftex.def Info: figures/rl_plots1/leadership.pdf used on input line 31
-3.
+<use figures/rl_plots1/education.pdf>
+Package pdftex.def Info: figures/rl_plots1/education.pdf used on input line 324
+.
 (pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
 
-Overfull \hbox (18.08142pt too wide) in alignment at lines 311--315
+Overfull \hbox (18.08142pt too wide) in alignment at lines 322--326
  [] [] 
  []
 
 [13
 
- <./figures/rl_plots1/leadership.pdf>]
-<figures/rl_plots1/UF.pdf, id=258, 722.7pt x 722.7pt>
-File: figures/rl_plots1/UF.pdf Graphic file (type pdf)
+ <./figures/rl_plots1/education.pdf>]
+<figures/rl_plots1/floor.pdf, id=258, 722.7pt x 722.7pt>
+File: figures/rl_plots1/floor.pdf Graphic file (type pdf)
 
-<use figures/rl_plots1/UF.pdf>
-Package pdftex.def Info: figures/rl_plots1/UF.pdf used on input line 320.
+<use figures/rl_plots1/floor.pdf>
+Package pdftex.def Info: figures/rl_plots1/floor.pdf used on input line 331.
 (pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
 
-Overfull \hbox (18.08142pt too wide) in alignment at lines 318--322
+Overfull \hbox (18.08142pt too wide) in alignment at lines 329--333
  [] [] 
  []
 
 [14
 
- <./figures/rl_plots1/UF.pdf>]
-<figures/rl_plots1/party.pdf, id=273, 722.7pt x 722.7pt>
-File: figures/rl_plots1/party.pdf Graphic file (type pdf)
+ <./figures/rl_plots1/floor.pdf>]
+<figures/rl_plots1/leadership_f.pdf, id=273, 722.7pt x 722.7pt>
+File: figures/rl_plots1/leadership_f.pdf Graphic file (type pdf)
 
-<use figures/rl_plots1/party.pdf>
-Package pdftex.def Info: figures/rl_plots1/party.pdf used on input line 327.
+<use figures/rl_plots1/leadership_f.pdf>
+Package pdftex.def Info: figures/rl_plots1/leadership_f.pdf used on input line 
+338.
 (pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
 
-Overfull \hbox (18.08142pt too wide) in alignment at lines 325--329
+Overfull \hbox (18.08142pt too wide) in alignment at lines 336--340
  [] [] 
  []
 
-(./CH48_NetworksEstimation.bbl [15
+[15
 
- <./figures/rl_plots1/party.pdf>] [16])
+ <./figures/rl_plots1/leadership_f.pdf>]
+<figures/rl_plots1/leadership.pdf, id=289, 722.7pt x 722.7pt>
+File: figures/rl_plots1/leadership.pdf Graphic file (type pdf)
+
+<use figures/rl_plots1/leadership.pdf>
+Package pdftex.def Info: figures/rl_plots1/leadership.pdf used on input line 34
+5.
+(pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
+
+Overfull \hbox (18.08142pt too wide) in alignment at lines 343--347
+ [] [] 
+ []
+
+[16
+
+ <./figures/rl_plots1/leadership.pdf>]
+<figures/rl_plots1/UF.pdf, id=304, 722.7pt x 722.7pt>
+File: figures/rl_plots1/UF.pdf Graphic file (type pdf)
+
+<use figures/rl_plots1/UF.pdf>
+Package pdftex.def Info: figures/rl_plots1/UF.pdf used on input line 352.
+(pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
+
+Overfull \hbox (18.08142pt too wide) in alignment at lines 350--354
+ [] [] 
+ []
+
+[17
+
+ <./figures/rl_plots1/UF.pdf>]
+<figures/rl_plots1/party.pdf, id=319, 722.7pt x 722.7pt>
+File: figures/rl_plots1/party.pdf Graphic file (type pdf)
+
+<use figures/rl_plots1/party.pdf>
+Package pdftex.def Info: figures/rl_plots1/party.pdf used on input line 359.
+(pdftex.def)             Requested size: 512.56541pt x 500.19945pt.
+
+Overfull \hbox (18.08142pt too wide) in alignment at lines 357--361
+ [] [] 
+ []
+
+(./CH48_NetworksEstimation.bbl [18
+
+ <./figures/rl_plots1/party.pdf>] [19])
 
 AED: lastpage setting LastPage
-[17]
+[20]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
 (./CH48_NetworksEstimation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
 Package rerunfilecheck Info: File `CH48_NetworksEstimation.out' has not changed
 .
 (rerunfilecheck)             Checksum: EB328D7F8CBB54DBADF483988CF73220;686.
@@ -1529,13 +1554,13 @@ Package rerunfilecheck Info: File `CH48_NetworksEstimation.out' has not changed
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 370.
  ) 
 Here is how much of TeX's memory you used:
- 27907 strings out of 493089
- 566893 string characters out of 6134841
- 669021 words of memory out of 5000000
- 30845 multiletter control sequences out of 15000+600000
+ 27935 strings out of 493089
+ 567313 string characters out of 6134841
+ 668210 words of memory out of 5000000
+ 30863 multiletter control sequences out of 15000+600000
  67789 words of font info for 239 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,47p,10409b,897s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1550,10 +1575,10 @@ ts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on CH48_NetworksEstimation.pdf (17 pages, 159406 bytes).
+Output written on CH48_NetworksEstimation.pdf (20 pages, 236982 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
- 48286 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 338 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 48319 words of extra memory for PDF output out of 51595 (max. 10000000)
 
