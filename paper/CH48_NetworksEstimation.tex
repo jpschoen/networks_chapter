@@ -74,26 +74,19 @@ The LSM, ERGM, and SBM reflect the core components
 
 \section{Application of ERGM, LSM, and SBM}
 
-{\bf [John]}: [Background summary of Wojcik paper]
+{\bf [John]}: [Background summary of Wojcik paper] For the application we replicate a recent study on the determining factors for when actors form directed connections in Brazilian legislative networks \citep{wojcik2017legislative}. The author argues that despite high levels of personalism in Latin American politics, political parties are equally effective in determining actor behavior, indicating that there are higher levels of party discipline than previously thought. By addressing this problem from a network framework, the author offers new evidence that the relationships between legislators is interdependent.\\
 
-For the application we replicate a recent study on the determining factors for when actors form directed connections in Brazilian legislative networks. The author argues that despite high levels of personalism in Latin American politics, political parties are equally effective in determining actor behavior, indicating that there are higher levels of party discipline than previously thought.
+{\bf [John]}: [summary of replication/extension] In addition to replicating the ERGM models in the article, we also fit the three models using latent space models and stochastic block models. We use the R software package \texttt{ergm} to replicate the ERGM models, \texttt{latentnet} for the LSMs, and \texttt{CIDnetworks} for the SBMs.  We fit models using 2 to 5 blocks for the SBMs and report the model results that has the lowest DIC. In general we find that results from all the models match the general conclusions of the paper. Below I explain the data from the study, the model specifications, and the results in more detail.
 
+\subsection{Data}
 
-{\bf [John]}: [summary of replication/extension]
-
-In addition to replicating the ERGM models in the article, we also fit the three models using latent space models and stochastic block models. We use the R software package \texttt{ergm} to replicate the ERGM models, \texttt{latentnet} for the LSMs, and \texttt{CIDnetworks} for the SBMs.  We fit models using 2 to 5 blocks for the SBMs and report the model results that has the lowest DIC. In general we find that results from all the models match the general conclusions of the paper. Below I explain the data from the study, the model specifications, and the results in more detail.
-
-\subsection{Data from wojcik2017legislative}
-
-{\bf [John]}: [One paragraph reviewing how wojcik gathered dependent variable network] 
-
-To collect the network data the author distributed an interactive digital survey to office managers for the Brazilian equivalent of US House of Representatives. The three different types of connections surveyed were communication on legislative issues, socialization about non legislative issues, and information gathering to resolve questions about legislative proposals/procedures. The author also collected biographic information on those that completed the survey to look for any identifiable biases and compared traits of sample to that of the entire Congress, finding no identifiable differences. The survey had a 25\% response rate, and missing data was filled in using results from a pen and paper survey from 2013.
+{\bf [John]}: [One paragraph reviewing how wojcik gathered dependent variable network] To collect the network data the author distributed an interactive digital survey to office managers from the Brazilian equivalent of US House of Representatives. The three different types of connections surveyed were communication on legislative issues, socialization about non-legislative issues, and information gathering to resolve questions about legislative proposals and procedures. The author also collected biographic information on those that completed the survey to look for any identifiable biases and compared traits of sample to that of the entire Congress, finding no identifiable differences. The survey had a 25\% response rate and missing data was filled in using results from a pen and paper survey from 2013.
 
 {\bf [John]}: [One paragraph providing descriptive statistics on the dependent variable network, perhaps include a network plot]
 
 \begin{table}[!htbp] \centering
-  \caption{Summary Statistics: DVs}
-  \label{}
+  \caption{Summary Statistics: Dependent Variables}
+  \label{SS_DV}
 \begin{tabular}{@{\extracolsep{5pt}} lccccc}
 \\[-1.8ex]\hline
 \hline \\[-1.8ex]
@@ -127,8 +120,8 @@ Info Exchange& Transitivity  & $ 0.135$ & $NA$ & $NA$&$NA$\\
  {\bf [John]}: [One paragraph reviewing the independent variables in the analysis, perhaps include a table of descriptive data]
 
 \begin{table}[!htbp] \centering
-  \caption{Summary Statistics: IVs}
-  \label{}
+  \caption{Summary Statistics: Independent Variables}
+  \label{SS_IV}
 \begin{tabular}{@{\extracolsep{5pt}} lccc}
 \\[-1.8ex]\hline
 \hline \\[-1.8ex]
@@ -157,35 +150,35 @@ $\Delta$ Age & $12$ & $12$ & $13$\\
 \subsection{Models from wojcik2017legislative}
 
 
-The main hypotheses of the paper is that parties actively work to form ties within and among members to counter the individualistic tendencies of politicians to increase their own electoral share/power at the expense of the party. The network then creates trust and cohesion among the actors, while also facilitating monitoring. The author expects that this will the the stronger driver of the tie formation, rather than individual traits. 
+The main hypothesis of the paper is that political parties actively work to form ties among members and thus counter the individualistic tendencies of politicians to increase their own electoral share/power at the expense of the party. The network then creates trust and cohesion among the actors, while also facilitating monitoring. The author expects that this will the the stronger driver of the tie formation, rather than individual traits. 
 
-The secondary hypotheses of the paper is that similar individual traits drive network ties. The author includes five different traits. The first is that when politicians are both in leadership positions they will need to interact more, but when neither are in leadership positions they will not need to interact with one another and can rely on party leaders. The second is that when politicians have similar ages they will form connections based on shared experiences.  The third is that when politicians are from the same state they will form connections since there is a proportional voting system in Brazil and that means that coordination among members in the same states is necessary to exchange information about what the local needs are. The fourth is that politicians with the same education level are likely to have similar knowledge and social class, which increases the change of network ties. The fifth is that when politicians work on the same floor this creates opportunity for interaction.
+The secondary hypothesis of the paper are is that similar individual traits drive network ties, even if less so than party membership. The author includes five different traits. The first is that when politicians are both in leadership positions they will need to interact more, but when neither are in leadership positions they will not need to interact with one another and can rely on party leaders. The second is that when politicians have similar ages they will form connections based on shared experiences.  The third is that when politicians are from the same state they will form connections since there is a proportional voting system in Brazil and that means that coordination among members in the same states is necessary to exchange information about what the local needs are. The fourth is that politicians with the same education level are likely to have similar knowledge and social class, which increases the chance of network ties. The fifth is that when politicians work on the same floor this creates opportunity for interaction.
 
 
 \subsection{Replication design}
 
  {\bf [John]}: [One paragraph reviewing the model specification in the original paper, explaining the transitive ties term ]
  
-The models is specified in the article to include a intercept term, the exogenous covariates, and a term for transitive ties, or the change in the likelihood of a tie between two nodes given the presence of a two-path or a triad closure. A two-path between nodes $i$ and $j$ is defined as  node $i$ having a directed edge path to node $k$ and node $k$ having a directed edge to node $j$, thus you can find a connection between the nodes with only two edges.
+The ERGMs are specified in the article to include a intercept term, the exogenous covariates, and a term for transitive ties. Transitive ties is a network statistic, specific to network models and is defined as the change in the likelihood of a tie between two nodes given the presence of a two-path or a triad closure. A two-path between nodes $i$ and $j$ is defined as node $i$ having a directed edge path to node $k$ and node $k$ having a directed edge to node $j$, or put differently, there exists a connection between the nodes with only two edges.
  
 
  {\bf [John]}: [One paragraph describing how we extend the application to use both the LSM and the SBM]
 
-For the LSM model, the specification is the same except it does not include the include a transitive ties term. This is because the model does not have network statistics as an ERGM model does, but instead we specify the latent space effects that models higher order dependences. For our extensions we use the euclidean distance model term that is equal to the negative euclidean distance between actors in the unobserved social space. We estimated the term along two dimensions and across three clusters. The SBM does not include a constant term as the block or group effect takes the place of the intercept term. It also does not have network terms like transitive ties as it accounts for dependencies using the latent space along a multinomial distribution to determine block membership for the nodes. 
+For the LSMs, the specification is the same except it does not include the include a transitive ties term. This is because the model does not have network statistics as an ERGM model does, but instead we specify the latent space that models higher order dependences, which would include transitivity. For our extensions we use the euclidean distance model term that is equal to the negative euclidean distance between actors in the unobserved social space. We estimated the term along two dimensions and across two or three clusters, depending on best model fit using the BIC. The SBMs do not include a constant term as the block or group effect takes the place of the intercept term. It also does not have network terms like transitive ties as it accounts for dependencies using the latent space along a multinomial distribution to determine block membership for the nodes. 
 
 
 \subsection{Results}
 
  {\bf [John]}: [1--2 paragraphs discussing covariate results that are consistent and/or different across the ERGM LSM, and SBM. ]
 
-The results from the LSMs indicate that the latent space explains less of the variation in the ties than the network statistics in ERGMs, as the coefficients for exogenous covariates, while signed the same, are mostly larger in magnitude. One exception is that the node match variables for leadership where in model 1 the effect size is slightly larger, but in model 3 the effect size is nearly one-third smaller. Also, the changes are smaller for the leadership variables than the other variables.\\
+The results from the LSMs indicate that the latent space explains less of the variation in the ties than the network statistics in ERGMs, as the coefficients for exogenous covariates, while signed the same, are mostly larger in magnitude. One exception is the node-match variables for leadership, where in model 1 the effect size is slightly larger, but in model 3 the effect size is nearly one-third smaller. Also, the changes in magnitude are generally smaller for the leadership variables than the other variables.\\
 
-The results from the SBMs indicate that the latent space explains more of the variation in the ties than the network statistics in ERGMs, as the coefficients for exogenous covariates, while signed the same, are mostly smaller in magnitude. Also, the coefficient estimates have smaller standard errors relative to the size of the estimate.
+The results from the SBMs indicate that the latent space and block membership explains more of the variation in the ties than the network statistics in ERGMs, as the coefficients for exogenous covariates, while signed the same, are mostly smaller in magnitude. Also, the coefficient estimates have smaller standard errors relative to the size of the estimate.
 
 
  {\bf [John]}: [1--2 paragraphs discussing the latent structure in the LSM and SBM (i.e., visuals of the LSM estimates, distribution of nodes by blocks in the SBMs) ]
 
-The latent space plots (Tables \ref{fig:LSM_plot_1} to  \ref{fig:LSM_plot_3}) show that the clusters are not distinct from one another, but rather there are inside groups that form clusters and each subsequent group are nodes that are less central to the graph. In Table \ref{fig:SBM_plot_1} for the SBM for communication ties, we see that the blocks are fairly evenly distributed, but that most nodes are not cleanly part of only one block. In Table \ref{fig:SBM_plot_2} this shared membership is even starker for the social networks. However, for the information network in Table  \ref{fig:SBM_plot_3} membership is sharply separated and concentrated in one block.
+The latent space plots (Tables \ref{fig:LSM_plot_1} to  \ref{fig:LSM_plot_3}) show that the clusters are not distinct from one another, but rather there are inside groups that form clusters and each subsequent group are nodes that are less central to the graph. In Table \ref{fig:SBM_plot_1} for the SBM for communication ties, we see that the blocks are fairly evenly distributed, but that membership not predominant for each group and that many of the nodes have spread out likelihoods for  membership assignment. In Table \ref{fig:SBM_plot_2} we see that this shared membership is even greater for the social networks. However, for the information network in Table  \ref{fig:SBM_plot_3} membership likelihood is sharply separated and concentrated in one block for each node.
 
 
 

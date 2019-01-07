@@ -12,20 +12,18 @@ Atouba, Yannick~C \harvardand\ Michelle Shumate. 2015.
 \newblock ``International nonprofit collaboration: Examining the role of
   homophily.'' {\em Nonprofit and Voluntary Sector Quarterly} 44(3):587--608.
 
-\harvarditem[Block et~al.]{Block, Koskinen, Hollway, Steglich \harvardand\
-  Stadtfeld}{2018}{block2018change}
-Block, Per, Johan Koskinen, James Hollway, Christian Steglich \harvardand\
-  Christoph Stadtfeld. 2018.
-\newblock ``Change we can believe in: Comparing longitudinal network models on
-  consistency, interpretability and predictive power.'' {\em Social Networks}
-  52:180--191.
-
 \harvarditem[Bond et~al.]{Bond, Fariss, Jones, Kramer, Marlow, Settle
   \harvardand\ Fowler}{2012}{bond201261}
 Bond, Robert~M, Christopher~J Fariss, Jason~J Jones, Adam~DI Kramer, Cameron
   Marlow, Jaime~E Settle \harvardand\ James~H Fowler. 2012.
 \newblock ``A 61-million-person experiment in social influence and political
   mobilization.'' {\em Nature} 489(7415):295.
+
+\harvarditem{Bush \harvardand\ Bichler}{2015}{bush2015measuring}
+Bush, Stacy \harvardand\ Gisela Bichler. 2015.
+\newblock ``Measuring disruption in terrorist communications.'' {\em Disrupting
+  criminal networks: network analysis in crime prevention. Crime prevention
+  studies} 28:177--208.
 
 \harvarditem{Cao}{2012}{cao2012global}
 Cao, Xun. 2012.
@@ -36,6 +34,11 @@ Cao, Xun. 2012.
 Chu-Shore, Jesse. 2010.
 \newblock ``Homogenization and Specialization Effects of International Trade:
   Are Cultural Goods Exceptional?'' {\em World Development} 38(1):37--47.
+
+\harvarditem{Chyzh}{2016}{chyzh2016dangerous}
+Chyzh, Olga. 2016.
+\newblock ``Dangerous liaisons: An endogenous model of international trade and
+  human rights.'' {\em Journal of Peace Research} 53(3):409--423.
 
 \harvarditem{Cranmer \harvardand\ Desmarais}{2011}{cranmer2011inferential}
 Cranmer, Skyler~J \harvardand\ Bruce~A Desmarais. 2011.
@@ -54,21 +57,10 @@ Cranmer, Skyler~J, Tobias Heinrich \harvardand\ Bruce~A Desmarais. 2014.
 \newblock ``Reciprocity and the structural determinants of the international
   sanctions network.'' {\em Social Networks} 36:5--22.
 
-\harvarditem{Desmarais \harvardand\ Cranmer}{2012}{desmarais2012micro}
-Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2012.
-\newblock ``Micro-level interpretation of exponential random graph models with
-  application to estuary networks.'' {\em Policy Studies Journal}
-  40(3):402--434.
-
 \harvarditem{Desmarais \harvardand\ Cranmer}{2013}{desmarais2013forecasting}
 Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2013.
 \newblock ``Forecasting the locational dynamics of transnational terrorism: A
   network analytic approach.'' {\em Security Informatics} 2(1):8.
-
-\harvarditem{Desmarais \harvardand\ Cranmer}{2017}{desmarais2017statistical}
-Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2017.
-\newblock ``Statistical Inference in Political Networks Research.'' {\em The
-  Oxford Handbook of Political Networks} p.~203.
 
 \harvarditem{Dorff \harvardand\ Ward}{2013}{dorff2013networks}
 Dorff, Cassy \harvardand\ Michael~D Ward. 2013.
@@ -96,10 +88,17 @@ Gallop, Max~B. 2016.
 \newblock ``Endogenous networks and international cooperation.'' {\em Journal
   of Peace Research} 53(3):310--324.
 
-\harvarditem{Hoff \harvardand\ Ward}{2004}{hoff2004modeling}
-Hoff, Peter~D \harvardand\ Michael~D Ward. 2004.
-\newblock ``Modeling dependencies in international relations networks.'' {\em
-  Political Analysis} 12(2):160--175.
+\harvarditem[Hafner-Burton, Kahler \harvardand\ Montgomery]{Hafner-Burton,
+  Kahler \harvardand\ Montgomery}{2009}{hafner2009network}
+Hafner-Burton, Emilie~M, Miles Kahler \harvardand\ Alexander~H Montgomery.
+  2009.
+\newblock ``Network analysis for international relations.'' {\em International
+  Organization} 63(3):559--592.
+
+\harvarditem{Harris}{2013}{harris2013communication}
+Harris, Jenine~K. 2013.
+\newblock ``Communication ties across the national network of local health
+  departments.'' {\em American journal of preventive medicine} 44(3):247--253.
 
 \harvarditem{Kirkland \harvardand\ Williams}{2014}{kirkland2014partisanship}
 Kirkland, Justin~H \harvardand\ R~Lucas Williams. 2014.
@@ -130,6 +129,12 @@ Nowicki, Krzysztof \harvardand\ Tom A~B Snijders. 2001.
 \newblock ``Estimation and prediction for stochastic blockstructures.'' {\em
   Journal of the American statistical association} 96(455):1077--1087.
 
+\harvarditem{Ogburn}{2018}{ogburn2018challenges}
+Ogburn, Elizabeth~L. 2018.
+\newblock Challenges to estimating contagion effects from observational data.
+  In {\em Complex Spreading Phenomena in Social Systems}.
+\newblock Springer pp.~47--64.
+
 \harvarditem[Raftery et~al.]{Raftery, Niu, Hoff \harvardand\
   Yeung}{2012}{raftery2012fast}
 Raftery, Adrian~E, Xiaoyue Niu, Peter~D Hoff \harvardand\ Ka~Yee Yeung. 2012.
@@ -144,19 +149,6 @@ Van~Duijn, Marijtje~AJ, Krista~J Gile \harvardand\ Mark~S Handcock. 2009.
   maximum likelihood estimation of exponential family random graph models.''
   {\em Social Networks} 31(1):52--62.
 
-\harvarditem[Wang et~al.]{Wang, Butts, Hipp, Jose \harvardand\
-  Lakon}{2016}{wang2016multiple}
-Wang, Cheng, Carter~T Butts, John~R Hipp, Rupa Jose \harvardand\ Cynthia~M
-  Lakon. 2016.
-\newblock ``Multiple imputation for missing edge data: A predictive evaluation
-  method with application to Add Health.'' {\em Social networks} 45:89--98.
-
-\harvarditem[Ward, Ahlquist \harvardand\ Rozenas]{Ward, Ahlquist \harvardand\
-  Rozenas}{2013}{ward2013gravity}
-Ward, Michael~D, John~S Ahlquist \harvardand\ Arturas Rozenas. 2013.
-\newblock ``Gravity's rainbow: A dynamic latent space model for the world trade
-  network.'' {\em Network Science} 1(1):95--118.
-
 \harvarditem{Ward \harvardand\ Hoff}{2007}{ward2007persistent}
 Ward, Michael~D \harvardand\ Peter~D Hoff. 2007.
 \newblock ``Persistent patterns of international commerce.'' {\em Journal of
@@ -167,5 +159,10 @@ Ward, Michael~D \harvardand\ Peter~D Hoff. 2007.
 Ward, Michael~D, Randolph~M Siverson \harvardand\ Xun Cao. 2007.
 \newblock ``Disputes, democracies, and dependencies: A reexamination of the
   Kantian peace.'' {\em American Journal of Political Science} 51(3):583--601.
+
+\harvarditem{Wojcik}{2017}{wojcik2017legislative}
+Wojcik, Stefan. 2017.
+\newblock ``Why Legislative Networks? Analyzing Legislative Network
+  Formation.'' {\em Political Science Research and Methods} pp.~1--18.
 
 \end{thebibliography}
