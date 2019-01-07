@@ -10,7 +10,9 @@
 \usepackage[final]{pdfpages}
 \setboolean{@twoside}{false}
 \linespread{1}
-
+\usepackage{booktabs,tabularx}
+\usepackage[input-decimal-markers=.]{siunitx}
+\usepackage{lipsum}
 
 
 
@@ -39,7 +41,11 @@
 
 Do states go to war with the enemies of their enemies? Which international trade relationships are most likely to break down over the next decade? What would happen to the  Statistical inference with network data permits researchers to test hypotheses about network generation, predict network structure, and simulate networks from probabilistic models. How would the world system of military alliances rewire if the United States were to exit the North Atlantic Treaty Organization? What these questions have in common is that they  address systems of international relationships (conflict, trade, and alliances)---systems that can be represented as networks in which the states constitute the nodes, and the relationships constitute the edges between nodes. Inferential network analysis represents a methodological class that can be drawn upon to answer questions like these. Most statistical models used in the social sciences rely on the assumption that the observations in a dataset (or at least clusters of observation) are drawn independently from a common data generating process.  However, when analyzing networks it is often inappropriate to assume that observations are independent \citep{harris2013communication,hafner2009network}. Indeed, the network analyst is often interested in studying the ways in which observations depend upon each other \citep{ogburn2018challenges} (e.g., do friends influence each others' choices to vote \citep{bond201261}, do legislators reciprocate support for legislation \citep{kirkland2014partisanship}). 
 
+<<<<<<< HEAD
 Many, perhaps even most, of the empirical phenomena of interest to scholars of international relations can be represented as international networks. Paired with the availability of accessible software implementations, the conceptual appropriateness of inferential network analysis in international relations has led to widespread application over the last 10--15 years. Networks that have been studied through the use of inferential network analysis include, but are not limited to, trade \citep{ward2007persistent,fagiolo2014does,chu2010homogenization,chyzh2016dangerous}, conflict \citep{ward2007disputes,cranmer2011inferential,gallop2016endogenous,dorff2013networks}, alliances \citep{cranmer2012complex}, transnational terrorism \citep{desmarais2013forecasting,asal2016friends,metternich2013antigovernment,bush2015measuring}, sanctioning \citep{cranmer2014reciprocity,dorff2017states}, international governmental organizations \citep{davis2017forces,cao2012global,lupu2017networked}and non-governmental organizations \citep{atouba2015international}. This research has led to several innovative findings. For example, \cite{kinne2018defense} finds that defense cooperation agreements (DCAs) between states are self-exciting in that they become more attractive as more states sign on, leading to patterns of triangle closure (i.e., friend of a friend is a friend) and preferential attachment (i.e., popular states gain more ties) in the formation of networks through DCAs. \cite{duque2018recognizing}, in a study of international diplomatic networks, finds similar relational dynamics in that the diplomatic relations of a state with one partner state affects its relations with other partner states.
+=======
+Many, perhaps even most, of the empirical phenomena of interest to scholars of international relations can be represented as international networks. Paired with the availability of accessible software implementations, the conceptual appropriateness of inferential network analysis in international relations has led to widespread application over the last 10--15 years. Networks that have been studied through the use of inferential network analysis include, but are not limited to, trade \citep{ward2007persistent,agiolo2014does,chu2010homogenization,chyzh2016dangerous}, conflict \citep{ward2007disputes,cranmer2011inferential,gallop2016endogenous,dorff2013networks}, alliances \citep{cranmer2012complex, }, transnational terrorism \citep{desmarais2013forecasting,asal2016friends,metternich2013antigovernment,bush2015measuring}, sanctioning \citep{cranmer2014reciprocity,dorff2017states}, IGOs \citep{cao2012global,dorussen2008intergovernmental,lupu2017networked} [CITES] and NGOs \citep{atouba2015international,lee2012interorganizational} [CITES]. This research has led to several innovative findings. For example, [SOMETHING FROM KINNE's WORK] states' decisions to extend diplomatic recognition is dependent on the decisions of other states within their network \citep{kinne2014dependent}, latent network structure can be used to forecast the evolution of civil conflict [CITE SHAHRYAR's STUFF], [CITE A FINDING FROM OLGA's WORK] and that indirect trade channels can allow states to enjoy the benefits of international trade without complying to the human right's standards that are required by membership in trade organizations \citep{chyzh2016dangerous} . Inferential network analysis is a valuable piece in the IR scholar's toolkit.
+>>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35
  
 Methods for inferential network analysis come primarily in the form of probabilistic models for networks, which are fit to data using common estimation frameworks (e.g., maximum likelihood estimation, Bayesian inference). Inferential network analysis is now far too broad of a methodological area to effectively review all of the models in any detail. In what follows we will review three modeling approaches in detail. These include the exponential random graph model (ERGM) \citep{cranmer2011inferential}, the latent space model (LSM) \citep{dorff2016latent},  and the stochastic block model (SBM) \citep{latouche2011overlapping}. The first model, which we refer to as the latent space model (LSM), is a class of models in which each node is attributed with a position in a latent space of features. The second model, the exponential random graph model (ERGM) is a model that can be customized to represent networks with any quantifiable characteristic (e.g., a high number of reciprocated ties, a strong degree of clustering).  The third model we discuss in detail is the stochastic blockmodel (SBM). The first two models, LSM and ERGM, are commonly used in international relations. The SBM, however, has seen little use in IR. We make the case that the SMB should be used in political science as an alternative to ERGM and SBM. After presenting a review of these three models, we provide a brief overview of several approaches that we did not review in detail, but of which IR scholars should be aware. After reviewing these models we present an application in which we replicate the analyses from  using each of these models and focus in particular on the application of SBM, since SBM is new in IR.
 
@@ -57,11 +63,15 @@ In the case of each model, network structure is layered on top of the regression
 
 
 
+<<<<<<< HEAD
 The notion of selection is deeply rooted in political science literature. For example,  in  the study of legislative networks, ties between legislators have been repeatedly found to be driven by partisanship, ideology, and the geographic proximity of districts \citep{osei2018party,bratton2011networks,clark2013multimember}.   The probability of a tie between two legislators is a function of the features of the two legislators---primarily ideology and geography. The LSM reflects this very structure---the probability of a tie depending on a combination of functions of node (e.g., legislator) features---with exception being that the features inferred in the LSM are latent. That is, given one or more functions according to which the latent features affect the probability of an edge,  in the LSM the nodes' feature values are inferred to be those that best explain the pattern of edges observed in the data.
 
 \subsection{The exponential random graph model}
 
 Theories of dependence in political science have been developing rapidly in recent years. Example findings include that there is a strong tendency towards rapid retaliation in the issuance of international economic sanctions \citep{cranmer2014reciprocity}, the finding that bilateral preferential trade agreement networks form triads and/or four-cycles to share costs among larger partner groups \citep{milewicz2018beyond}, and influence networks among policy actors are hierarchical---exhibiting a tendency towards transitive tie formation \citep{christopoulos2015exceptional}.  The ERGM opens up a new class of hypotheses that can be tested relative to regression models. In addition to studying how covariates effect the absence/presence of edges, the ERGM permits researchers to test hypotheses about how the edges effect each other (e.g., is the enemy of an enemy a friend)? The key components in using an ERGM are to develop hypotheses regarding the ways in which edges depend on each other, and conceptualize these dependencies in terms of subnetwork structures such as dyads and triads.
+=======
+Concepts in international relations related to system polarity [CITES], [CONCEPT FROM ELIZABETH AND SKYLER] \citep{cranmer2015kantian}, fall within the orbit of the SBM formulation. Under the SBM there is a finite number of node types or `blocks', and each block is defined by the probabilities according to which nodes within the block form ties with each other, and with nodes in other blocks. If there are $n$ nodes in the network, the SBM reduces the complexity of interactions among those $n$  nodes, to interactions among and within a set of $b$ blocks, where $b$ is typically much smaller than $n$. 
+>>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35
 
 \subsection{The stochastic blockmodel}
 
@@ -71,235 +81,297 @@ Concepts in political science related to group  and system polarity \citep[e.g.,
 
 The LSM, ERGM, and SBM reflect the core components
 
-
-
 \section{Application of ERGM, LSM, and SBM}
 
-{\bf [John]}: [Background summary of Wojcik paper] 
+{\bf [John]}: [Background summary of Wojcik paper] For the application we replicate a recent study on the determining factors for when actors form directed connections in Brazilian legislative networks \citep{wojcik2017legislative}. The author argues that despite high levels of personalism in Latin American politics, political parties are equally effective in determining actor behavior, indicating that there are higher levels of party discipline than previously thought. By addressing this problem from a network framework, the author offers new evidence that the relationships between legislators is interdependent.\\
 
-{\bf [John]}: [summary of replication/extension]
+{\bf [John]}: [summary of replication/extension] In addition to replicating the ERGM models in the article, we also fit the three models using latent space models and stochastic block models. We use the R software package \texttt{ergm} to replicate the ERGM models, \texttt{latentnet} for the LSMs, and \texttt{CIDnetworks} for the SBMs.  We fit models using 2 to 5 blocks for the SBMs and report the model results that has the lowest DIC. In general we find that results from all the models match the general conclusions of the paper. Below I explain the data from the study, the model specifications, and the results in more detail.
 
-\subsection{Data from \citet{wojcik2017legislative}}
-{\bf [John]}: [One paragraph reviewing how wojcik gathered dependent variable network] 
+\subsection{Data}
+
+{\bf [John]}: [One paragraph reviewing how wojcik gathered dependent variable network] To collect the network data the author distributed an interactive digital survey to office managers from the Brazilian equivalent of US House of Representatives. The three different types of connections surveyed were communication on legislative issues, socialization about non-legislative issues, and information gathering to resolve questions about legislative proposals and procedures. The author also collected biographic information on those that completed the survey to look for any identifiable biases and compared traits of sample to that of the entire Congress, finding no identifiable differences. The survey had a 25\% response rate and missing data was filled in using results from a pen and paper survey from 2013.
 
 {\bf [John]}: [One paragraph providing descriptive statistics on the dependent variable network, perhaps include a network plot]
 
+\begin{table}[!htbp] \centering
+  \caption{Summary Statistics: Dependent Variables}
+  \label{SS_DV}
+\begin{tabular}{@{\extracolsep{5pt}} lccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+Network & Measurement & Global Value & Mean & s.d. & Max  \\
+\hline \\[-1.8ex]
+Communication& Edge Density & $0.008$ & $NA$ & $NA$& $NA$\\
+Communication& Degree Distribution & $NA$ & $3.307$ & $3.020$  & $18.000$\\
+Communication& Centrality & $0.072$ & $204.588$ & $448.319$  &$3009.852$ \\
+Communication& Reciprocity  & $0.255$ & $NA$ & $NA$ &$NA$\\
+Communication& Transitivity  & $0.108$ & $NA$ & $NA$ &$NA$\\
+\hline \\[-1.8ex]
+
+Social& Edge Density & $0.006$ & $NA$ & $NA$ &$NA$\\
+Social& Degree Distribution & $NA$ & $2.482$ & $2.254$  & $11.000$\\
+Social& Centrality & $0.025$ & $103.633$ & $222.925$  & $1009.333$\\
+Social& Reciprocity  & $0.203$ & $NA$ & $NA$ &$NA$\\
+Social& Transitivity  & $0.119$ & $NA$ & $NA$ &$NA$\\
+\hline \\[-1.8ex]
+
+Info Exchange& Edge Density & $0.009$ & $NA$ & $NA$ &$NA$\\
+Info Exchange& Degree Distribution & $NA$ & $$-$0.348$ & $$-$0.391$  & $6.000$\\
+Info Exchange& Centrality & $0.001$ & $0.880$ & $1.930$ & $10.000$\\
+Info Exchange& Reciprocity  & $0.157$ & $NA$ & $NA$&$NA$\\
+Info Exchange& Transitivity  & $ 0.135$ & $NA$ & $NA$&$NA$\\
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+
  {\bf [John]}: [One paragraph reviewing the independent variables in the analysis, perhaps include a table of descriptive data]
+
+\begin{table}[!htbp] \centering
+  \caption{Summary Statistics: Independent Variables}
+  \label{SS_IV}
+\begin{tabular}{@{\extracolsep{5pt}} lccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+ &  \multicolumn{3}{c}{Proportion} \\
+\hline \\[-1.8ex]
+Variable & Communication & Social & Info Exchange\\
+\hline \\[-1.8ex]
+
+Same Education Level  & $71\%$ & $70\%$ & $74\%$\\
+Same Floor  & $10\%$ & $10\%$ & $12\%$\\
+Both Leadership & $6\%$ & $7\%$ & $6\%$\\
+Both non-Leadership & $10\%$ & $10\%$ & $14\%$\\
+Same State  & $10\%$ & $9\%$ & $12\%$\\
+Same Party & $46\%$ & $50\%$ & $43\%$\\
+\hline \\[-1.8ex]
+ &  \multicolumn{3}{c}{Average} \\
+\hline \\[-1.8ex]
+$\Delta$ Age & $12$ & $12$ & $13$\\
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+\end{tabular}
+
+\end{table}
+
+
+\subsection{Hypotheses}
+
+
+The main hypothesis of the paper is that political parties actively work to form ties among members and thus counter the individualistic tendencies of politicians to increase their own electoral share/power at the expense of the party. The network then creates trust and cohesion among the actors, while also facilitating monitoring. The author expects that this will the the stronger driver of the tie formation, rather than individual traits. 
+
+The secondary hypothesis of the paper are is that similar individual traits drive network ties, even if less so than party membership. The author includes five different traits. The first is that when politicians are both in leadership positions they will need to interact more, but when neither are in leadership positions they will not need to interact with one another and can rely on party leaders. The second is that when politicians have similar ages they will form connections based on shared experiences.  The third is that when politicians are from the same state they will form connections since there is a proportional voting system in Brazil and that means that coordination among members in the same states is necessary to exchange information about what the local needs are. The fourth is that politicians with the same education level are likely to have similar knowledge and social class, which increases the chance of network ties. The fifth is that when politicians work on the same floor this creates opportunity for interaction.
+
 
 \subsection{Replication design}
 
  {\bf [John]}: [One paragraph reviewing the model specification in the original paper, explaining the transitive ties term ]
+ 
+The ERGMs are specified in the article to include a intercept term, the exogenous covariates, and a term for transitive ties. Transitive ties is a network statistic, specific to network models and is defined as the change in the likelihood of a tie between two nodes given the presence of a two-path or a triad closure. A two-path between nodes $i$ and $j$ is defined as node $i$ having a directed edge path to node $k$ and node $k$ having a directed edge to node $j$, or put differently, there exists a connection between the nodes with only two edges.
+ 
 
- {\bf [John]}: [One paragraph describing how we extend the application to use both the LSM and the SBM ]
+ {\bf [John]}: [One paragraph describing how we extend the application to use both the LSM and the SBM]
+
+For the LSMs, the specification is the same except it does not include the include a transitive ties term. This is because the model does not have network statistics as an ERGM model does, but instead we specify the latent space that models higher order dependences, which would include transitivity. For our extensions we use the euclidean distance model term that is equal to the negative euclidean distance between actors in the unobserved social space. We estimated the term along two dimensions and across two or three clusters, depending on best model fit using the BIC. The SBMs do not include a constant term as the block or group effect takes the place of the intercept term. It also does not have network terms like transitive ties as it accounts for dependencies using the latent space along a multinomial distribution to determine block membership for the nodes. 
 
 
 \subsection{Results}
 
  {\bf [John]}: [1--2 paragraphs discussing covariate results that are consistent and/or different across the ERGM LSM, and SBM. ]
 
- {\bf [John]}: [1--2 paragraphs discussing the latent structure in the LSM and SBM (i.e., visuals of the LSM estimates, dsistribution of nodes by blocks in the SBMs) ]
+The results from the LSMs indicate that the latent space explains less of the variation in the ties than the network statistics in ERGMs, as the coefficients for exogenous covariates, while signed the same, are mostly larger in magnitude. One exception is the node-match variables for leadership, where in model 1 the effect size is slightly larger, but in model 3 the effect size is nearly one-third smaller. Also, the changes in magnitude are generally smaller for the leadership variables than the other variables.\\
+
+The results from the SBMs indicate that the latent space and block membership explains more of the variation in the ties than the network statistics in ERGMs, as the coefficients for exogenous covariates, while signed the same, are mostly smaller in magnitude. Also, the coefficient estimates have smaller standard errors relative to the size of the estimate.
+
+
+ {\bf [John]}: [1--2 paragraphs discussing the latent structure in the LSM and SBM (i.e., visuals of the LSM estimates, distribution of nodes by blocks in the SBMs) ]
+
+The latent space plots (Tables \ref{fig:LSM_plot_1} to  \ref{fig:LSM_plot_3}) show that the clusters are not distinct from one another, but rather there are inside groups that form clusters and each subsequent group are nodes that are less central to the graph. In Table \ref{fig:SBM_plot_1} for the SBM for communication ties, we see that the blocks are fairly evenly distributed, but that membership not predominant for each group and that many of the nodes have spread out likelihoods for  membership assignment. In Table \ref{fig:SBM_plot_2} we see that this shared membership is even greater for the social networks. However, for the information network in Table  \ref{fig:SBM_plot_3} membership likelihood is sharply separated and concentrated in one block for each node.
 
 
 
 
 
-\clearpage
-\begin{landscape}
+
+
+
+
+
+
+
+
+
+
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Dec 17, 2018 - 20:18:54
 \begin{table}
 \begin{center}
-\begin{tabular}{l c c c c c c c c }
+\begin{tabular}{l c c c }
 \hline
- & Model 1 & Model 2 & Model 3 & Model 4 & Model 5 & Model 6 & Model 7 & Model 8 \\
+ & Model 1 & Model 2 & Model 3 \\
 \hline
-Edges                   & $-0.87^{***}$ & $-5.15^{***}$ & $-2.50^{***}$ & $-6.00^{***}$ & $-5.12^{***}$ & $-5.12^{***}$ & $-4.58^{***}$ & $-6.43^{***}$ \\
-                        & $(0.17)$      & $(1.23)$      & $(0.30)$      & $(0.76)$      & $(1.01)$      & $(1.13)$      & $(0.56)$      & $(0.80)$      \\
-        
-Preference Similarity      &    $0.18^{**}$            & $0.11$        &     $-0.02$           & $-0.02$       & $0.09$        & $0.11$        & $-0.02$       & $0.02$        \\
-                        &     $(0.06)$           & $(0.07)$      &     $(0.11)$           & $(0.12)$      & $(0.07)$      & $(0.07)$      & $(0.11)$      & $(0.13)$      \\
-Government Alter &               & $0.60^{**}$   &               & $0.37$        & $0.61^{**}$   & $0.58^{**}$   & $0.67^{*}$    & $0.51$        \\
-                        &               & $(0.19)$      &               & $(0.33)$      & $(0.19)$      & $(0.19)$      & $(0.30)$      & $(0.34)$      \\
-Scientific Ego &               & $0.06$        &               & $1.54^{***}$  & $0.35$        & $0.07$        & $1.59^{***}$  & $1.58^{***}$  \\
-                        &               & $(0.22)$      &               & $(0.36)$      & $(0.20)$      & $(0.22)$      & $(0.34)$      & $(0.37)$      \\
-Common Committee      &               & $0.30^{***}$  &               & $0.14^{*}$    & $0.34^{***}$  & $0.29^{***}$  & $0.21^{***}$  & $0.16^{**}$   \\
-                        &               & $(0.05)$      &               & $(0.06)$      & $(0.05)$      & $(0.05)$      & $(0.05)$      & $(0.06)$      \\
-Scientific Communication          &               & $2.88^{***}$  &               &               &               & $2.86^{***}$  &               &               \\
-                        &               & $(0.60)$      &               &               &               & $(0.63)$      &               &               \\
-Political Communication          &               &               &               & $2.89^{***}$  &               &               &               & $2.94^{***}$  \\
-                        &               &               &               & $(0.58)$      &               &               &               & $(0.59)$      \\
-Interest Group Homophily       &               & $1.06^{***}$  &               & $1.22^{*}$    & $1.10^{***}$  & $1.04^{***}$  & $1.55^{**}$   & $1.28$        \\
-                        &               & $(0.29)$      &               & $(0.59)$      & $(0.28)$      & $(0.30)$      & $(0.59)$      & $(0.68)$      \\
-Influence Attribution       &               & $0.94^{***}$  &               & $0.32$        & $0.92^{***}$  & $0.88^{***}$  & $0.56$        & $0.26$        \\
-                        &               & $(0.18)$      &               & $(0.31)$      & $(0.18)$      & $(0.20)$      & $(0.30)$      & $(0.32)$      \\
-gwesp.fixed.0.1         &               & $2.52^{*}$    &               & $0.49^{*}$    & $2.48^{**}$   & $2.47^{*}$    & $0.61^{*}$    & $0.34$        \\
-                        &               & $(1.06)$      &               & $(0.23)$      & $(0.86)$      & $(0.97)$      & $(0.24)$      & $(0.23)$      \\
-gwdsp.fixed.0.1         &               & $-0.13^{**}$  &               & $-0.17$       & $-0.13^{**}$  & $-0.13^{**}$  & $-0.13$       & $-0.22^{*}$   \\
-                        &               & $(0.04)$      &               & $(0.10)$      & $(0.04)$      & $(0.05)$      & $(0.09)$      & $(0.09)$      \\
-Reciprocity                 &               & $0.81^{**}$   &               & $1.76^{***}$  & $0.86^{***}$  & $0.82^{**}$   & $1.85^{***}$  & $1.69^{***}$  \\
-                        &               & $(0.25)$      &               & $(0.50)$      & $(0.25)$      & $(0.25)$      & $(0.52)$      & $(0.51)$      \\
-nodeicov.betweenness    &               &               &               &               &               & $0.00$        &               & $0.02^{***}$  \\
-                        &               &               &               &               &               & $(0.00)$      &               & $(0.00)$      \\
+Edges (intercept)   & $-$5.670$^{***}$ & $-$6.070$^{***}$ & $-$5.742$^{***}$ \\ 
+  & (0.162) & (0.185) & (0.445) \\ 
+  & & & \\ 
+$\Delta$ Age & $-$0.021$^{***}$ & $-$0.024$^{***}$ & $-$0.063$^{***}$ \\ 
+  & (0.007) & (0.008) & (0.022) \\ 
+  & & & \\ 
+Same Education Level & 0.164 & 0.161 & 0.600$^{*}$ \\ 
+  & (0.125) & (0.144) & (0.334) \\ 
+  & & & \\ 
+Same Floor & 0.756$^{***}$ & 1.373$^{***}$ & 0.794$^{**}$ \\ 
+  & (0.153) & (0.141) & (0.390) \\ 
+  & & & \\ 
+Both non-leadership & $-$0.655$^{***}$ & $-$0.241$^{*}$ & $-$0.805$^{**}$ \\ 
+  & (0.125) & (0.139) & (0.337) \\ 
+  & & & \\ 
+Both leadership & 0.534$^{***}$ & 0.473$^{**}$ & 0.837$^{**}$ \\ 
+  & (0.164) & (0.206) & (0.396) \\ 
+  & & & \\ 
+Same State & 2.121$^{***}$ & 2.106$^{***}$ & 0.989$^{**}$ \\ 
+  & (0.124) & (0.140) & (0.431) \\ 
+  & & & \\ 
+Same Party & 2.319$^{***}$ & 2.051$^{***}$ & 2.958$^{***}$ \\ 
+  & (0.123) & (0.135) & (0.343) \\ 
+  & & & \\ 
+ Transitive ties & 0.661$^{***}$ & 0.901$^{***}$ & 0.568 \\ 
+  & (0.123) & (0.139) & (0.399) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Akaike Inf. Crit. & 3,056.153 & 2,281.901 & 466.732 \\ 
+Bayesian Inf. Crit. & 3,133.387 & 2,358.395 & 526.326 \\
+$N$ & 39,402 & 36,290 & 5550 \\  
 \hline
-AIC                     & 1161.59       & 849.59        & 456.09        & 313.09        & 887.52        & 850.39        & 352.91        & 303.07        \\
-BIC                     & 1171.13       & 902.04        & 465.62        & 365.55        & 935.21        & 907.61        & 400.60        & 360.29        \\
-Log Likelihood          & -578.80       & -413.80       & -226.04       & -145.55       & -433.76       & -413.19       & -166.46       & -139.54       \\
-\hline
-\multicolumn{9}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
+\multicolumn{4}{l}{\scriptsize{Note: {$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}}}
 \end{tabular}
-\caption{ERGM Replication}
-\label{table:coefficients}
-\end{center}
-\end{table}
-\end{landscape}
-\restoregeometry
-
-\clearpage
-\begin{landscape}
-
-\begin{table}
-\begin{center}
-\begin{tabular}{l c c c c c c c c }
-\hline
- & Model 1 & Model 2 & Model 3 & Model 4 & Model 5 & Model 6 & Model 7 & Model 8 \\
-\hline
-edges                   & $2.30$           & $1.45$           & $-0.07$          & $-2.40$          & $1.54$           & $2.13$            & $-1.80$          & $-3.34$          \\
-                        & $[-0.44;\ 4.98]$ & $[-1.42;\ 4.07]$ & $[-4.04;\ 3.66]$ & $[-6.31;\ 1.36]$ & $[-1.29;\ 4.18]$ & $[-1.23;\ 5.17]$  & $[-6.13;\ 2.09]$ & $[-6.97;\ 0.41]$ \\
-Preference Similarity       & $0.20$           & $-1.59$          & $0.45$           & $-1.77$          & $-1.59$          & $-2.30$           & $-1.44$          & $-1.97$          \\
-                        & $[-2.40;\ 3.03]$ & $[-4.22;\ 1.21]$ & $[-3.32;\ 4.44]$ & $[-5.33;\ 2.12]$ & $[-4.24;\ 1.26]$ & $[-5.14;\ 1.09]$  & $[-5.45;\ 2.91]$ & $[-5.39;\ 1.91]$ \\
-Government Alter &                  & $0.66^{*}$       &                  & $0.68^{*}$       & $0.85^{*}$       & $0.96^{*}$        & $0.82$           & $0.59^{*}$       \\
-                        &                  & $[0.66;\ 0.66]$  &                  & $[0.42;\ 0.97]$  & $[0.42;\ 1.30]$  & $[0.55;\ 1.43]$   & $[-0.02;\ 1.61]$ & $[0.43;\ 0.78]$  \\
-Scientific Ego &                  & $-0.01$          &                  & $0.95^{*}$       & $0.25$           & $-0.26^{*}$       & $1.33^{*}$       & $1.75^{*}$       \\
-                        &                  & $[-0.45;\ 0.54]$ &                  & $[0.03;\ 1.67]$  & $[-0.31;\ 0.83]$ & $[-0.27;\ -0.25]$ & $[0.48;\ 2.19]$  & $[0.88;\ 2.62]$  \\
-Common Committe   &                  & $1.59^{*}$       &                  & $1.22$           & $1.89^{*}$       & $1.74^{*}$        & $2.30^{*}$       & $1.02$           \\
-                        &                  & $[1.58;\ 1.60]$  &                  & $[-0.44;\ 2.82]$ & $[1.36;\ 2.41]$  & $[1.32;\ 2.35]$   & $[0.84;\ 3.64]$  & $[-0.59;\ 2.62]$ \\
-Scientific Commuication         &                  & $3.02^{*}$       &                  &                  &                  & $3.35^{*}$        &                  &                  \\
-                        &                  & $[1.73;\ 4.74]$  &                  &                  &                  & $[2.09;\ 4.43]$   &                  &                  \\
-Political Commuication          &                  &                  &                  & $2.74^{*}$       &                  &                   &                  & $3.51^{*}$       \\
-                        &                  &                  &                  & $[1.47;\ 4.11]$  &                  &                   &                  & $[2.40;\ 4.78]$  \\
-Interest Group Homophily       &                  & $1.91^{*}$       &                  & $1.10$           & $2.13^{*}$       & $1.89^{*}$        & $1.86$           & $1.67^{*}$       \\
-                        &                  & $[1.86;\ 1.95]$  &                  & $[-0.75;\ 2.82]$ & $[1.07;\ 3.24]$  & $[0.98;\ 2.65]$   & $[-0.09;\ 3.88]$ & $[1.11;\ 2.21]$  \\
-Influence Attribution       &                  & $1.40^{*}$       &                  & $0.87^{*}$       & $1.20^{*}$       & $1.28^{*}$        & $1.27^{*}$       & $0.97^{*}$       \\
-                        &                  & $[1.40;\ 1.40]$  &                  & $[0.10;\ 1.68]$  & $[0.81;\ 1.63]$  & $[0.90;\ 1.91]$   & $[0.56;\ 2.03]$  & $[0.22;\ 1.79]$  \\
-nodeicov.betweenness    &                  &                  &                  &                  &                  & $-0.00^{*}$       &                  & $0.02^{*}$       \\
-                        &                  &                  &                  &                  &                  & $[-0.00;\ -0.00]$ &                  & $[0.00;\ 0.03]$  \\
-\hline
-BIC (Overall)           & 1057.64          & 954.68           & 487.17           & 506.51           & 971.64           & 961.00            & 501.48           & 529.49           \\
-BIC (Likelihood)        & 833.39           & 726.85           & 316.74           & 275.73           & 737.39           & 732.03            & 307.71           & 281.19           \\
-BIC (Latent Positions)  & 224.25           & 227.83           & 170.43           & 230.78           & 234.25           & 228.96            & 193.77           & 248.30           \\
-\hline
-\multicolumn{9}{l}{\scriptsize{$^*$ 0 outside the confidence interval}}
-\end{tabular}
-\caption{LSM models}
+\caption{ERGM results}
 \label{table:coefficients}
 \end{center}
 \end{table}
 
-\end{landscape}
-\restoregeometry
 
 
-[NOT A ROBUSTNESS CHECK, AN ILLUSTRATION OF SBM]
+\begin{table} 
+\begin{center}
+\begin{tabular}{l c c c }
+\hline
+ & Model 1 & Model 2 & Model 3 \\
+\hline
+Edges (intercept)                      & $-3.10^{***}$       & $-3.00^{***}$       & $-3.12^{***}$       \\
+  & (0.094) & (0.291) & (0.620) \\ 
+  & & & \\ 
+$\Delta$ Age                & $-0.03^{***}$       & $-0.04^{***}$       & $-0.08^{***}$       \\
+  & (0.008) & (0.010) & (0.026) \\ 
+  & & & \\ 
+Same Education Level        & $0.22^{***}$        & $0.35^{***}$        & $0.93^{**}$        \\
+  & (0.031) & (0.084) & (0.433) \\ 
+  & & & \\ 
+Same Floor            & $1.02^{***}$        & $1.53^{***}$        & $1.16^{**}$        \\
+  & (0.148) & (0.010) & (0.490) \\ 
+  & & & \\ 
+Both non-leadership  & $-0.82^{***}$       & $-0.28^{**}$       & $-0.82^{**}$       \\
+  & (0.054) & (0.112) & (0.418) \\ 
+  & & & \\ 
+Both leadership  & $0.61^{***}$        & $0.44$            & $0.64$            \\
+  & (0.005) & (0.296) & (0.510) \\ 
+  & & & \\ 
+Same State               & $2.75^{***}$        & $2.56^{***}$        & $1.31^{*}$        \\
+  & (0.105) & (0.176) & (0.671) \\ 
+  & & & \\ 
+Same Party            & $2.86^{***}$        & $2.30^{***}$        & $3.47^{***}$        \\
+  & (0.112) & (0.033) & (0.406) \\ 
+  & & & \\ 
+\hline
+BIC (Overall)              & 3589.51           & 2885.59           & 770.67            \\
+BIC (Likelihood)           & 2544.96           & 1879.84           & 376.27            \\
+BIC (Latent Positions)     & 1044.54           & 1005.75           & 394.40            \\
+d = Latent Dimensions / G = $n$ Clusters & d=2, G=3 & d=2, G=3 & d=2, G=2\\
+$N$ & 39,402 & 36,290 & 5,550 \\  
+\hline
+\multicolumn{4}{l}{\scriptsize{Note: {$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}}}
+\end{tabular}
+\caption{LSM Results}
+\label{table:LSM_coefficients}
+\end{center}
+\end{table}
 
-%SBM plots
 
-\clearpage
+\begin{table}
+\begin{center}
+\begin{tabular}{l c c c }
+\hline
+ & Model 1 & Model 2 & Model 3 \\
+\hline
+$\Delta$ Age & $-$0.014$^{***}$ & $-$0.013$^{***}$ & $-$-0.035$^{***}$ \\ 
+  & (0.003) & (0.003) & (0.009) \\ 
+  & & & \\ 
+Same Education Level & 0.143$^{**}$ & 0.081 & 0.293$^{**}$ \\ 
+  & (0.057) & (0.070) & (0.150) \\ 
+  & & & \\ 
+Same Floor & 0.316$^{***}$ & 0.632$^{***}$ & 0.430$^{**}$ \\ 
+  & (0.067) & (0.067) & (0.168) \\ 
+  & & & \\ 
+Both non-leadership  & $-$0.277$^{***}$ & $-$0.131$^{**}$ & $-$0.407$^{***}$ \\ 
+  & (0.053) & (0.064) & (0.140) \\ 
+  & & & \\ 
+Both leadership & 0.212$^{***}$ & 0.196$^{**}$ & 0.340$^{**}$ \\ 
+  & (0.073) & (0.099) & (0.174) \\ 
+  & & & \\ 
+Same State & 1.049$^{***}$ & 1.036$^{***}$ & 0.456$^{**}$ \\ 
+  & (0.058) & (0.067) & (0.201) \\ 
+  & & & \\ 
+Same Party & 1.085$^{***}$ & 0.9871$^{***}$ &1.360$^{***}$ \\ 
+  & (0.053) & (0.065) & (0.141) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Deviance Inf. Crit. & 2,818.370 & 2164.976 & 460.616 \\ 
+$N$ blocks & 3 & 2 & 3 \\ 
+$N$ & 39,402 & 36,290 & 5,550 \\  
+\hline
+\multicolumn{4}{l}{\scriptsize{Note: {$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}}}
+\end{tabular}
+\caption{SBM results}
+\label{table:SBM_coefficients}
+\end{center}
+\end{table}
+
+
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Preference Similarity \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots2/IssuePosition.pdf} \\
-\caption{\label{fig:SBM_plot_pref} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m1.pdf}   \\
+\caption{\label{fig:LSM_plot_1} Latent Space positions for LSM.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Government alter \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots2/nodei_gov.pdf}   \\
-\caption{\label{fig:SBM_plot_gov} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m2.pdf}   \\
+\caption{\label{fig:LSM_plot_2} Latent Space positions for LSM.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Scientific Ego \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots2/nodeo_sci.pdf}   \\
-\caption{\label{fig:SBM_plot_sci} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/LSM_m3.pdf}   \\
+\caption{\label{fig:LSM_plot_3} Latent Space positions for LSM.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Common Committee \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots2/common_committee.pdf}   \\
-\caption{\label{fig:SBM_plot_com} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.4\textheight, clip=true, trim=0cm 0cm 0cm 0cm]{figures/SBM_m1}   \\
+\caption{\label{fig:SBM_plot_1} Block positions for SBM 1.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Scientific Communication \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots2/nw_sci.pdf}   \\
-\caption{\label{fig:SBM_plot_nwsci} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.4\textheight, clip=true, trim=0cm 0cm 0cm 0cm]{figures/SBM_m2}   \\
+\caption{\label{fig:SBM_plot_2} Block positions for SBM 2.}
 \end{longtable}
 
-\clearpage
 \begin{longtable}[!h]{c@{\hskip 0cm}c}
-Political Communication \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots2/nw_pol.pdf}   \\
-\caption{\label{fig:SBM_plot_nwpol} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
-\end{longtable}
-
-\clearpage
-\begin{longtable}[!h]{c@{\hskip 0cm}c}
-Interest Group Homophily \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots2/ig_ig.pdf}   \\
-\caption{\label{fig:SBM_plot_igig} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
-\end{longtable}
-
-\clearpage
-\begin{longtable}[!h]{c@{\hskip 0cm}c}
-Influence Attribution \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots2/reputation.pdf}   \\
-\caption{\label{fig:SBM_plot_reputation} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
-\end{longtable}
-
-\clearpage
-\begin{longtable}[!h]{c@{\hskip 0cm}c}
-Betweenness \\
-\includegraphics[height=.75\textheight, clip=true, trim=.5cm .5cm 0cm .6cm]{figures/rl_plots2/pol_betweenness.pdf}   \\
-\caption{\label{fig:SBM_plot_between} SBM covariate plot. Results from models for which DIC could not be calculated were discarded.}
+\includegraphics[height=.4\textheight, clip=true, trim=0cm 0cm 0cm 0cm]{figures/SBM_m3}   \\
+\caption{\label{fig:SBM_plot_3} Block positions for SBM 3.}
 \end{longtable}
 
 
 
-\subsection{Model Comparison}
 
-\textbf{I only compare models one through four, as models five through eight are not reported in the main paper and are merely robustness tests. I included the results though above so that we could still review them and take them out later if we need too.}
-
-
-\begin{enumerate}
-
-\item ERGM replication
-\begin{enumerate}
-\item Models two and four do not perfectly replicate. Most of the substantive findings remain, but in model four the significance level for common committee drops from 99.9\% to 95\%. There are a few other drops in significance for other covariates, but not as big. Signage remains the same for the replication across all models even when there are changes in the coefficient size or significance. 
-\end{enumerate}
-
-
-\item LSM
-\begin{enumerate}
-\item There are substantial differences between the ERGM results and the LSM results. For example, in model 1, LSM does not have significant correlation between preference similarity and political communication. In model 2 the point estimate for common committee is five times larger  and  is not significant in model 4. Influence attribution is almost two times larger in model 2 and 4. In the LSM models, intercept estimates are not significant in any model, but they are highly significant in the ERGM models. Interest group homophily is not significant in model 4.
-\end{enumerate}
-
-\item SBM
-\begin{enumerate}
-\item Preference Similarity: In model 2, point estimates remain above 95\% significance cutoff. The variables for model 2 do not absorb preference similarity measures as they do in the ERGM.  
-\item Government Alter: Point estimates are a little higher and in model 4 it is not 95\% significant for five blocks. 
-\item Scientific Ego: Still statistically significant in model 4, but point estimates are less than half. 
-\item Common Committee: Point estimate is about two thirds for model 2's and slightly bigger than model 4's.
-\item Scientific Communication: Point estimate in model 2 is about $1/3$
-\item Political Communication: Point estimate in model 4 is about $1/3$
-\item Interest Group Homophily: Point estimates are slightly smaller and in model 4 they are not significant at the 95\% threshold. 
-\item Influence attribution: point estimates are negative and not statistically significant instead of being around one. 
-\item The number of blocks that results in the lowest DIC is not consistent across models. For the most part, models with four blocks have the lowest DIC for political communication but two blocks is best for scientific communication. Many of the institutional/relational structure variables are smaller not always significant at the same level.
-
-\end{enumerate}
-\end{enumerate}
-
-
+\clearpage
 
 \bibliographystyle{apsr}
 \bibliography{bibliography}

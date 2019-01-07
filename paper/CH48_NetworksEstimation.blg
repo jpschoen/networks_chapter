@@ -3,6 +3,7 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: CH48_NetworksEstimation.aux
 The style file: apsr.bst
 Database file #1: bibliography.bib
+<<<<<<< HEAD
 Repeated entry---line 162 of file bibliography.bib
  : @article{raftery2012fast
  :                         ,
@@ -54,3 +55,54 @@ while$ -- 823
 width$ -- 0
 write$ -- 468
 (There were 2 error messages)
+=======
+Repeated entry---line 455 of file bibliography.bib
+ : @article{chyzh2016dangerous
+ :                            ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "agiolo2014does"
+Warning--I didn't find a database entry for ""
+Warning--empty publisher in dorff2016latent
+You've used 32 entries,
+            2874 wiz_defined-function locations,
+            845 strings with 10723 characters,
+and the built_in function-call counts, 152233 in all, are:
+= -- 25002
+> -- 1906
+< -- 0
++ -- 11863
+- -- 664
+* -- 13208
+:= -- 30234
+add.period$ -- 129
+call.type$ -- 32
+change.case$ -- 416
+chr.to.int$ -- 32
+cite$ -- 33
+duplicate$ -- 504
+empty$ -- 1150
+format.name$ -- 692
+if$ -- 27391
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 32
+newline$ -- 132
+num.names$ -- 382
+pop$ -- 99
+preamble$ -- 1
+purify$ -- 480
+quote$ -- 0
+skip$ -- 452
+stack$ -- 0
+substring$ -- 35506
+swap$ -- 80
+text.length$ -- 448
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 128
+warning$ -- 1
+while$ -- 784
+width$ -- 0
+write$ -- 447
+(There was 1 error message)
+>>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35

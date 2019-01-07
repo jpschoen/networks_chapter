@@ -51,17 +51,27 @@ Cranmer, Skyler~J, Bruce~A Desmarais \harvardand\ Elizabeth~J Menninga. 2012.
 \newblock ``Complex dependencies in the alliance network.'' {\em Conflict
   Management and Peace Science} 29(3):279--313.
 
+\harvarditem[Cranmer, Menninga \harvardand\ Mucha]{Cranmer, Menninga
+  \harvardand\ Mucha}{2015}{cranmer2015kantian}
+Cranmer, Skyler~J, Elizabeth~J Menninga \harvardand\ Peter~J Mucha. 2015.
+\newblock ``Kantian fractionalization predicts the conflict propensity of the
+  international system.'' {\em Proceedings of the National Academy of Sciences}
+  112(38):11812--11816.
+
 \harvarditem[Cranmer, Heinrich \harvardand\ Desmarais]{Cranmer, Heinrich
   \harvardand\ Desmarais}{2014}{cranmer2014reciprocity}
 Cranmer, Skyler~J, Tobias Heinrich \harvardand\ Bruce~A Desmarais. 2014.
 \newblock ``Reciprocity and the structural determinants of the international
   sanctions network.'' {\em Social Networks} 36:5--22.
 
+<<<<<<< HEAD
 \harvarditem{Davis \harvardand\ Pratt}{2017}{davis2017forces}
 Davis, Christina~L \harvardand\ Tyler Pratt. 2017.
 \newblock ``The Forces of Attraction: How Security Interests Shape Membership
   in Economic Institutions.''.
 
+=======
+>>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35
 \harvarditem{Desmarais \harvardand\ Cranmer}{2013}{desmarais2013forecasting}
 Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2013.
 \newblock ``Forecasting the locational dynamics of transnational terrorism: A
@@ -110,10 +120,17 @@ Harris, Jenine~K. 2013.
 \newblock ``Communication ties across the national network of local health
   departments.'' {\em American journal of preventive medicine} 44(3):247--253.
 
+<<<<<<< HEAD
 \harvarditem{Kinne}{2018}{kinne2018defense}
 Kinne, Brandon~J. 2018.
 \newblock ``Defense Cooperation Agreements and the Emergence of a Global
   Security Network.'' {\em International Organization} 72(4):799--837.
+=======
+\harvarditem{Kinne}{2014}{kinne2014dependent}
+Kinne, Brandon~J. 2014.
+\newblock ``Dependent diplomacy: Signaling, strategy, and prestige in the
+  diplomatic network.'' {\em International Studies Quarterly} 58(2):247--259.
+>>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35
 
 \harvarditem{Kirkland \harvardand\ Williams}{2014}{kirkland2014partisanship}
 Kirkland, Justin~H \harvardand\ R~Lucas Williams. 2014.
@@ -126,11 +143,20 @@ Latouche, Pierre, Etienne Birmel{\'e} \harvardand\ Christophe Ambroise. 2011.
 \newblock ``Overlapping stochastic block models with application to the french
   political blogosphere.'' {\em The Annals of Applied Statistics} pp.~309--336.
 
+<<<<<<< HEAD
 \harvarditem{Lubbers \harvardand\ Snijders}{2007}{lubbers2007comparison}
 Lubbers, Miranda~J \harvardand\ Tom~AB Snijders. 2007.
 \newblock ``A comparison of various approaches to the exponential random graph
   model: A reanalysis of 102 student networks in school classes.'' {\em Social
   networks} 29(4):489--507.
+=======
+\harvarditem[Lee, Lee \harvardand\ Feiock]{Lee, Lee \harvardand\
+  Feiock}{2012}{lee2012interorganizational}
+Lee, Youngmi, In~Won Lee \harvardand\ Richard~C Feiock. 2012.
+\newblock ``Interorganizational collaboration networks in economic development
+  policy: An exponential random graph model analysis.'' {\em Policy Studies
+  Journal} 40(3):547--573.
+>>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35
 
 \harvarditem{Lupu \harvardand\ Greenhill}{2017}{lupu2017networked}
 Lupu, Yonatan \harvardand\ Brian Greenhill. 2017.
