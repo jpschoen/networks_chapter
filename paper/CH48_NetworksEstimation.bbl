@@ -12,12 +12,22 @@ Atouba, Yannick~C \harvardand\ Michelle Shumate. 2015.
 \newblock ``International nonprofit collaboration: Examining the role of
   homophily.'' {\em Nonprofit and Voluntary Sector Quarterly} 44(3):587--608.
 
+\harvarditem{Baldassarri \harvardand\ Bearman}{2007}{baldassarri2007dynamics}
+Baldassarri, Delia \harvardand\ Peter Bearman. 2007.
+\newblock ``Dynamics of political polarization.'' {\em American sociological
+  review} 72(5):784--811.
+
 \harvarditem[Bond et~al.]{Bond, Fariss, Jones, Kramer, Marlow, Settle
   \harvardand\ Fowler}{2012}{bond201261}
 Bond, Robert~M, Christopher~J Fariss, Jason~J Jones, Adam~DI Kramer, Cameron
   Marlow, Jaime~E Settle \harvardand\ James~H Fowler. 2012.
 \newblock ``A 61-million-person experiment in social influence and political
   mobilization.'' {\em Nature} 489(7415):295.
+
+\harvarditem{Bratton \harvardand\ Rouse}{2011}{bratton2011networks}
+Bratton, Kathleen~A \harvardand\ Stella~M Rouse. 2011.
+\newblock ``Networks in the legislative arena: How group dynamics affect
+  cosponsorship.'' {\em Legislative Studies Quarterly} 36(3):423--460.
 
 \harvarditem{Bush \harvardand\ Bichler}{2015}{bush2015measuring}
 Bush, Stacy \harvardand\ Gisela Bichler. 2015.
@@ -30,6 +40,13 @@ Cao, Xun. 2012.
 \newblock ``Global networks and domestic policy convergence: A network
   explanation of policy changes.'' {\em World Politics} 64(3):375--425.
 
+\harvarditem{Christopoulos \harvardand\
+  Ingold}{2015}{christopoulos2015exceptional}
+Christopoulos, Dimitris \harvardand\ Karin Ingold. 2015.
+\newblock ``Exceptional or just well connected? Political entrepreneurs and
+  brokers in policy making.'' {\em European Political Science Review}
+  7(3):475--498.
+
 \harvarditem{Chu-Shore}{2010}{chu2010homogenization}
 Chu-Shore, Jesse. 2010.
 \newblock ``Homogenization and Specialization Effects of International Trade:
@@ -39,6 +56,12 @@ Chu-Shore, Jesse. 2010.
 Chyzh, Olga. 2016.
 \newblock ``Dangerous liaisons: An endogenous model of international trade and
   human rights.'' {\em Journal of Peace Research} 53(3):409--423.
+
+\harvarditem{Clark \harvardand\ Caro}{2013}{clark2013multimember}
+Clark, Jennifer~Hayes \harvardand\ Veronica Caro. 2013.
+\newblock ``Multimember districts and the substantive representation of women:
+  An analysis of legislative cosponsorship networks.'' {\em Politics \& Gender}
+  9(1):1--30.
 
 \harvarditem{Cranmer \harvardand\ Desmarais}{2011}{cranmer2011inferential}
 Cranmer, Skyler~J \harvardand\ Bruce~A Desmarais. 2011.
@@ -64,14 +87,11 @@ Cranmer, Skyler~J, Tobias Heinrich \harvardand\ Bruce~A Desmarais. 2014.
 \newblock ``Reciprocity and the structural determinants of the international
   sanctions network.'' {\em Social Networks} 36:5--22.
 
-<<<<<<< HEAD
 \harvarditem{Davis \harvardand\ Pratt}{2017}{davis2017forces}
 Davis, Christina~L \harvardand\ Tyler Pratt. 2017.
 \newblock ``The Forces of Attraction: How Security Interests Shape Membership
   in Economic Institutions.''.
 
-=======
->>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35
 \harvarditem{Desmarais \harvardand\ Cranmer}{2013}{desmarais2013forecasting}
 Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2013.
 \newblock ``Forecasting the locational dynamics of transnational terrorism: A
@@ -120,17 +140,10 @@ Harris, Jenine~K. 2013.
 \newblock ``Communication ties across the national network of local health
   departments.'' {\em American journal of preventive medicine} 44(3):247--253.
 
-<<<<<<< HEAD
 \harvarditem{Kinne}{2018}{kinne2018defense}
 Kinne, Brandon~J. 2018.
 \newblock ``Defense Cooperation Agreements and the Emergence of a Global
   Security Network.'' {\em International Organization} 72(4):799--837.
-=======
-\harvarditem{Kinne}{2014}{kinne2014dependent}
-Kinne, Brandon~J. 2014.
-\newblock ``Dependent diplomacy: Signaling, strategy, and prestige in the
-  diplomatic network.'' {\em International Studies Quarterly} 58(2):247--259.
->>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35
 
 \harvarditem{Kirkland \harvardand\ Williams}{2014}{kirkland2014partisanship}
 Kirkland, Justin~H \harvardand\ R~Lucas Williams. 2014.
@@ -143,20 +156,11 @@ Latouche, Pierre, Etienne Birmel{\'e} \harvardand\ Christophe Ambroise. 2011.
 \newblock ``Overlapping stochastic block models with application to the french
   political blogosphere.'' {\em The Annals of Applied Statistics} pp.~309--336.
 
-<<<<<<< HEAD
 \harvarditem{Lubbers \harvardand\ Snijders}{2007}{lubbers2007comparison}
 Lubbers, Miranda~J \harvardand\ Tom~AB Snijders. 2007.
 \newblock ``A comparison of various approaches to the exponential random graph
   model: A reanalysis of 102 student networks in school classes.'' {\em Social
   networks} 29(4):489--507.
-=======
-\harvarditem[Lee, Lee \harvardand\ Feiock]{Lee, Lee \harvardand\
-  Feiock}{2012}{lee2012interorganizational}
-Lee, Youngmi, In~Won Lee \harvardand\ Richard~C Feiock. 2012.
-\newblock ``Interorganizational collaboration networks in economic development
-  policy: An exponential random graph model analysis.'' {\em Policy Studies
-  Journal} 40(3):547--573.
->>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35
 
 \harvarditem{Lupu \harvardand\ Greenhill}{2017}{lupu2017networked}
 Lupu, Yonatan \harvardand\ Brian Greenhill. 2017.
@@ -171,6 +175,13 @@ Metternich, Nils~W, Cassy Dorff, Max Gallop, Simon Weschle \harvardand\
   affect conflictual behavior.'' {\em American Journal of Political Science}
   57(4):892--911.
 
+\harvarditem[Milewicz et~al.]{Milewicz, Hollway, Peacock \harvardand\
+  Snidal}{2018}{milewicz2018beyond}
+Milewicz, Karolina, James Hollway, Claire Peacock \harvardand\ Duncan Snidal.
+  2018.
+\newblock ``Beyond trade: the expanding scope of the nontrade agenda in trade
+  agreements.'' {\em Journal of Conflict Resolution} 62(4):743--773.
+
 \harvarditem{Nowicki \harvardand\ Snijders}{2001}{nowicki2001estimation}
 Nowicki, Krzysztof \harvardand\ Tom A~B Snijders. 2001.
 \newblock ``Estimation and prediction for stochastic blockstructures.'' {\em
@@ -181,6 +192,11 @@ Ogburn, Elizabeth~L. 2018.
 \newblock Challenges to estimating contagion effects from observational data.
   In {\em Complex Spreading Phenomena in Social Systems}.
 \newblock Springer pp.~47--64.
+
+\harvarditem{Osei \harvardand\ Malang}{2018}{osei2018party}
+Osei, Anja \harvardand\ Thomas Malang. 2018.
+\newblock ``Party, ethnicity, or region? Determinants of informal political
+  exchange in the parliament of Ghana.'' {\em Party Politics} 24(4):410--420.
 
 \harvarditem[Raftery et~al.]{Raftery, Niu, Hoff \harvardand\
   Yeung}{2012}{raftery2012fast}

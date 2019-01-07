@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  7 JAN 2019 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  7 JAN 2019 13:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,7 +819,11 @@ Package natbib Warning: The `cite' package should not be used
 LaTeX Info: Redefining \cite on input line 694.
 LaTeX Info: Redefining \citenum on input line 708.
 \c@NAT@ctr=\count133
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
@@ -1160,94 +1164,29 @@ Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-lang
-uage-mappings.tex))) (./CH48_NetworksEstimation.aux
-
-./CH48_NetworksEstimation.aux:28: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 <
-      <<<<<< HEAD
-? 
-
-Package natbib Warning: Citation `cranmer2014reciprocity' multiply defined.
-
-
-Package natbib Warning: Citation `gallop2016endogenous' multiply defined.
-
-
-Package natbib Warning: Citation `hafner2009network' multiply defined.
-
-
-Package natbib Warning: Citation `harris2013communication' multiply defined.
-
-
-Package natbib Warning: Citation `kirkland2014partisanship' multiply defined.
-
-
-Package natbib Warning: Citation `latouche2011overlapping' multiply defined.
-
-
-Package natbib Warning: Citation `lupu2017networked' multiply defined.
-
-
-Package natbib Warning: Citation `metternich2013antigovernment' multiply define
-d.
-
-
-Package natbib Warning: Citation `nowicki2001estimation' multiply defined.
-
-
-Package natbib Warning: Citation `ogburn2018challenges' multiply defined.
-
-
-Package natbib Warning: Citation `raftery2012fast' multiply defined.
-
-
-Package natbib Warning: Citation `van2009framework' multiply defined.
-
-
-Package natbib Warning: Citation `ward2007persistent' multiply defined.
-
-
-Package natbib Warning: Citation `ward2007disputes' multiply defined.
-
-
-Package natbib Warning: Citation `wojcik2017legislative' multiply defined.
-
-
-LaTeX Warning: Label `LastPage' multiply defined.
-
-)
+uage-mappings.tex))) (./CH48_NetworksEstimation.aux)
 \openout1 = `CH48_NetworksEstimation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 30.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 31.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-Overfull \hbox (139.86539pt too wide) in paragraph at lines 28--13
-[]\OT1/cmr/m/n/12 <<<<<<< HEAD     =======     >>>>>>> 706d8eb59aeec3e0903a10be
-94a5e4dc3da7dc35                                                               
-    <<<<<<<
- []
-
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count199
 \scratchdimen=\dimen267
@@ -1319,7 +1258,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring ON on input line 30.
+Package hyperref Info: Link coloring ON on input line 31.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1329,9 +1268,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count271
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./CH48_NetworksEstimation.out) (./CH48_NetworksEstimation.out)
 \@outlinefile=\write3
@@ -1339,8 +1278,8 @@ LaTeX Info: Redefining \nameref on input line 30.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 30.
-LaTeX Info: Redefining \microtypecontext on input line 30.
+(lastpage)             ! on input line 31.
+LaTeX Info: Redefining \microtypecontext on input line 31.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1437,7 +1376,7 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/05/19 v2.7g siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count272
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 30
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 31
 .
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1446,30 +1385,30 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 30
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 31
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 30
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 31
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 30
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 31
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1486,7 +1425,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 33.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 34.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1495,63 +1434,29 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 33.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 34.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 34.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 34.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-
-
-Package natbib Warning: Citation `agiolo2014does' on page 2 undefined on input 
-line 47.
-
-
-Package natbib Warning: Citation `' on page 2 undefined on input line 47.
-
-[2] [3]
-
-Package natbib Warning: Citation `osei2018party' on page 4 undefined on input l
-ine 67.
-
-
-Package natbib Warning: Citation `bratton2011networks' on page 4 undefined on i
-nput line 67.
-
-
-Package natbib Warning: Citation `clark2013multimember' on page 4 undefined on 
-input line 67.
-
-[4]
-
-Package natbib Warning: Citation `milewicz2018beyond' on page 5 undefined on in
-put line 71.
-
-
-Package natbib Warning: Citation `christopoulos2015exceptional' on page 5 undef
-ined on input line 71.
-
-
-Package natbib Warning: Citation `baldassarri2007dynamics' on page 5 undefined 
-on input line 78.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 57.
+ [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 88.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 85.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -1559,132 +1464,102 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [5] [6]
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+ [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
+[6]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 247.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 244.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 247.
-<figures/LSM_m1.pdf, id=276, 614.295pt x 794.97pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 244.
+ <figures/LSM_m1.pdf, id=242, 614.295pt x 794.97pt>
 File: figures/LSM_m1.pdf Graphic file (type pdf)
- <use figures/LSM_m1.pdf>
-Package pdftex.def Info: figures/LSM_m1.pdf used on input line 342.
-(pdftex.def)             Requested size: 393.04326pt x 500.19945pt.
 
-[8] [9] [10] [11] <figures/LSM_m2.pdf, id=308, 614.295pt x 794.97pt>
+<use figures/LSM_m1.pdf>
+Package pdftex.def Info: figures/LSM_m1.pdf used on input line 339.
+(pdftex.def)             Requested size: 393.04326pt x 500.19945pt.
+ [7] [8] [9] [10]
+<figures/LSM_m2.pdf, id=273, 614.295pt x 794.97pt>
 File: figures/LSM_m2.pdf Graphic file (type pdf)
-
-<use figures/LSM_m2.pdf>
-Package pdftex.def Info: figures/LSM_m2.pdf used on input line 347.
+ <use figures/LSM_m2.pdf>
+Package pdftex.def Info: figures/LSM_m2.pdf used on input line 344.
 (pdftex.def)             Requested size: 393.04326pt x 500.19945pt.
- [12 <./figures/LSM_m1.pdf>]
-<figures/LSM_m3.pdf, id=323, 433.62pt x 578.16pt>
-File: figures/LSM_m3.pdf Graphic file (type pdf)
- <use figures/LSM_m3.pdf>
-Package pdftex.def Info: figures/LSM_m3.pdf used on input line 352.
-(pdftex.def)             Requested size: 383.61343pt x 500.19945pt.
 
-[13 <./figures/LSM_m2.pdf>]
-<figures/SBM_m1.png, id=338, 1020.81375pt x 597.23125pt>
+[11 <./figures/LSM_m1.pdf>] <figures/LSM_m3.pdf, id=288, 433.62pt x 578.16pt>
+File: figures/LSM_m3.pdf Graphic file (type pdf)
+
+<use figures/LSM_m3.pdf>
+Package pdftex.def Info: figures/LSM_m3.pdf used on input line 349.
+(pdftex.def)             Requested size: 383.61343pt x 500.19945pt.
+ [12 <./figures/LSM_m2.pdf>]
+<figures/SBM_m1.png, id=303, 1020.81375pt x 597.23125pt>
 File: figures/SBM_m1.png Graphic file (type png)
 
 <use figures/SBM_m1.png>
-Package pdftex.def Info: figures/SBM_m1.png used on input line 357.
+Package pdftex.def Info: figures/SBM_m1.png used on input line 354.
 (pdftex.def)             Requested size: 455.96631pt x 266.76897pt.
- [14 <./figures/LSM_m3.pdf>]
-<figures/SBM_m2.png, id=353, 1027.84pt x 605.26125pt>
+ [13 <./figures/LSM_m3.pdf>]
+<figures/SBM_m2.png, id=319, 1027.84pt x 605.26125pt>
 File: figures/SBM_m2.png Graphic file (type png)
  <use figures/SBM_m2.png>
-Package pdftex.def Info: figures/SBM_m2.png used on input line 362.
+Package pdftex.def Info: figures/SBM_m2.png used on input line 359.
 (pdftex.def)             Requested size: 453.0195pt x 266.76897pt.
 
-<figures/SBM_m3.png, id=355, 1036.87375pt x 600.2425pt>
+<figures/SBM_m3.png, id=321, 1036.87375pt x 600.2425pt>
 File: figures/SBM_m3.png Graphic file (type png)
 
 <use figures/SBM_m3.png>
-Package pdftex.def Info: figures/SBM_m3.png used on input line 367.
+Package pdftex.def Info: figures/SBM_m3.png used on input line 364.
 (pdftex.def)             Requested size: 460.82988pt x 266.76897pt.
- [15 <./figures/SBM_m1.png> <./figures/SBM_m2.png>]
-[16 <./figures/SBM_m3.png>] (./CH48_NetworksEstimation.bbl [17
+ [14 <./figures/SBM_m1.png> <./figures/SBM_m2.png>]
+[15 <./figures/SBM_m3.png>] (./CH48_NetworksEstimation.bbl [16
 
 ]
-Underfull \hbox (badness 7963) in paragraph at lines 130--134
-[]\OT1/ptm/m/n/12 (+20) Kinne, Bran-don J. 2014.  ``De-pen-dent diplo-macy: Sig
--nal-ing, strat-egy, and pres-tige
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--134
-\OT1/ptm/m/n/12 (+20) in the diplo-matic net-work.'' \OT1/ptm/m/it/12 (+20) In-
-ter-na-tional Stud-ies Quar-terly \OT1/ptm/m/n/12 (+20) 58(2):247--259. >>>>>>>
-
- []
-
-
-Overfull \hbox (1.71703pt too wide) in paragraph at lines 148--154
+Overfull \hbox (1.71703pt too wide) in paragraph at lines 160--164
 \OT1/ptm/m/n/12 (-20) random graph model: A reanalysis of 102 student networks 
 in school classes.'' \OT1/ptm/m/it/12 (-20) Social networks \OT1/ptm/m/n/12 (-2
 0) 29(4):489--
  []
 
-[18]) 
+[17]) 
 AED: lastpage setting LastPage
-[19]
-
-Package natbib Warning: There were undefined citations.
-
-
-Package natbib Warning: There were multiply defined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
-(./CH48_NetworksEstimation.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 382.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
+[18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+ (./CH48_NetworksEstimation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
 Package rerunfilecheck Info: File `CH48_NetworksEstimation.out' has not changed
 .
 (rerunfilecheck)             Checksum: 7D8C5C736C3AA407392F8D5CE64D7213;719.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 382.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
  ) 
 Here is how much of TeX's memory you used:
- 29422 strings out of 492995
- 587794 string characters out of 6132704
- 707693 words of memory out of 5000000
- 32387 multiletter control sequences out of 15000+600000
- 69352 words of font info for 257 fonts, out of 8000000 for 9000
+ 29490 strings out of 492995
+ 588681 string characters out of 6132704
+ 708039 words of memory out of 5000000
+ 32452 multiletter control sequences out of 15000+600000
+ 70699 words of font info for 258 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,49p,10393b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.dorussen2008intergovernmental} has been refe
-renced but does not exist, replaced by a fixed one
-
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
-mes/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CH48_NetworksEstimation.pdf (19 pages, 519338 bytes).
+ 43i,12n,49p,10393b,919s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw
+/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb
+8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on CH48_NetworksEstimation.pdf (18 pages, 518562 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 392 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
- 48283 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 360 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 48795 words of extra memory for PDF output out of 51595 (max. 10000000)
 

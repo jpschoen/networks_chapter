@@ -3,106 +3,66 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: CH48_NetworksEstimation.aux
 The style file: apsr.bst
 Database file #1: bibliography.bib
-<<<<<<< HEAD
-Repeated entry---line 162 of file bibliography.bib
+Repeated entry---line 249 of file bibliography.bib
  : @article{raftery2012fast
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 458 of file bibliography.bib
+Repeated entry---line 456 of file bibliography.bib
+ : @article{cranmer2014reciprocity
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 545 of file bibliography.bib
  : @article{atouba2015international
  :                                 ,
 I'm skipping whatever remains of this entry
-Warning--empty publisher in dorff2016latent
-You've used 34 entries,
-            2874 wiz_defined-function locations,
-            847 strings with 10736 characters,
-and the built_in function-call counts, 154159 in all, are:
-= -- 25312
-> -- 1862
-< -- 0
-+ -- 11957
-- -- 654
-* -- 13307
-:= -- 30715
-add.period$ -- 137
-call.type$ -- 34
-change.case$ -- 442
-chr.to.int$ -- 34
-cite$ -- 35
-duplicate$ -- 532
-empty$ -- 1197
-format.name$ -- 686
-if$ -- 27720
-int.to.chr$ -- 5
-int.to.str$ -- 0
-missing$ -- 34
-newline$ -- 140
-num.names$ -- 398
-pop$ -- 111
-preamble$ -- 1
-purify$ -- 510
-quote$ -- 0
-skip$ -- 476
-stack$ -- 0
-substring$ -- 35873
-swap$ -- 83
-text.length$ -- 476
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 136
-warning$ -- 1
-while$ -- 823
-width$ -- 0
-write$ -- 468
-(There were 2 error messages)
-=======
-Repeated entry---line 455 of file bibliography.bib
+Repeated entry---line 578 of file bibliography.bib
+ : @article{cranmer2015kantian
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 611 of file bibliography.bib
  : @article{chyzh2016dangerous
  :                            ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "agiolo2014does"
-Warning--I didn't find a database entry for ""
 Warning--empty publisher in dorff2016latent
-You've used 32 entries,
+You've used 41 entries,
             2874 wiz_defined-function locations,
-            845 strings with 10723 characters,
-and the built_in function-call counts, 152233 in all, are:
-= -- 25002
-> -- 1906
+            887 strings with 12095 characters,
+and the built_in function-call counts, 188999 in all, are:
+= -- 31066
+> -- 2289
 < -- 0
-+ -- 11863
-- -- 664
-* -- 13208
-:= -- 30234
-add.period$ -- 129
-call.type$ -- 32
-change.case$ -- 416
-chr.to.int$ -- 32
-cite$ -- 33
-duplicate$ -- 504
-empty$ -- 1150
-format.name$ -- 692
-if$ -- 27391
++ -- 14687
+- -- 802
+* -- 16345
+:= -- 37612
+add.period$ -- 165
+call.type$ -- 41
+change.case$ -- 533
+chr.to.int$ -- 41
+cite$ -- 42
+duplicate$ -- 637
+empty$ -- 1450
+format.name$ -- 837
+if$ -- 33995
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 32
-newline$ -- 132
-num.names$ -- 382
-pop$ -- 99
+missing$ -- 41
+newline$ -- 168
+num.names$ -- 483
+pop$ -- 130
 preamble$ -- 1
-purify$ -- 480
+purify$ -- 615
 quote$ -- 0
-skip$ -- 452
+skip$ -- 569
 stack$ -- 0
-substring$ -- 35506
-swap$ -- 80
-text.length$ -- 448
+substring$ -- 44049
+swap$ -- 97
+text.length$ -- 574
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
+type$ -- 164
 warning$ -- 1
-while$ -- 784
+while$ -- 997
 width$ -- 0
-write$ -- 447
-(There was 1 error message)
->>>>>>> 706d8eb59aeec3e0903a10be94a5e4dc3da7dc35
+write$ -- 563
+(There were 5 error messages)
