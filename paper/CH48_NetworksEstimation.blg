@@ -3,70 +3,70 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: CH48_NetworksEstimation.aux
 The style file: apsr.bst
 Database file #1: bibliography.bib
-Repeated entry---line 323 of file bibliography.bib
+Repeated entry---line 345 of file bibliography.bib
  : @article{osei2018party
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 365 of file bibliography.bib
+Repeated entry---line 387 of file bibliography.bib
  : @article{raftery2012fast
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 572 of file bibliography.bib
+Repeated entry---line 594 of file bibliography.bib
  : @article{cranmer2014reciprocity
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 661 of file bibliography.bib
+Repeated entry---line 683 of file bibliography.bib
  : @article{atouba2015international
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 694 of file bibliography.bib
+Repeated entry---line 716 of file bibliography.bib
  : @article{cranmer2015kantian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 727 of file bibliography.bib
+Repeated entry---line 749 of file bibliography.bib
  : @article{chyzh2016dangerous
  :                            ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in dorff2016latent
-You've used 51 entries,
+You've used 53 entries,
             2874 wiz_defined-function locations,
-            946 strings with 14061 characters,
-and the built_in function-call counts, 237010 in all, are:
-= -- 38918
-> -- 2928
+            955 strings with 14403 characters,
+and the built_in function-call counts, 250082 in all, are:
+= -- 41086
+> -- 3106
 < -- 0
-+ -- 18408
-- -- 1023
-* -- 20508
-:= -- 47125
-add.period$ -- 207
-call.type$ -- 51
-change.case$ -- 663
-chr.to.int$ -- 51
-cite$ -- 52
-duplicate$ -- 807
-empty$ -- 1831
-format.name$ -- 1068
-if$ -- 42662
++ -- 19466
+- -- 1083
+* -- 21666
+:= -- 49681
+add.period$ -- 215
+call.type$ -- 53
+change.case$ -- 689
+chr.to.int$ -- 53
+cite$ -- 54
+duplicate$ -- 837
+empty$ -- 1903
+format.name$ -- 1128
+if$ -- 45016
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 51
-newline$ -- 210
-num.names$ -- 603
-pop$ -- 163
+missing$ -- 53
+newline$ -- 218
+num.names$ -- 631
+pop$ -- 167
 preamble$ -- 1
-purify$ -- 765
+purify$ -- 795
 quote$ -- 0
-skip$ -- 724
+skip$ -- 752
 stack$ -- 0
-substring$ -- 55185
-swap$ -- 131
-text.length$ -- 714
+substring$ -- 58301
+swap$ -- 135
+text.length$ -- 742
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 204
+type$ -- 212
 warning$ -- 1
-while$ -- 1242
+while$ -- 1294
 width$ -- 0
-write$ -- 709
+write$ -- 739
 (There were 6 error messages)
