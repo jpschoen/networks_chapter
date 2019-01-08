@@ -15,7 +15,13 @@
 \usepackage[input-decimal-markers=.]{siunitx}
 \usepackage{lipsum}
 
-
+\newcommand{\bt}{\pmb{\theta}}
+\newcommand{\bG}{\pmb{\Gamma}}
+\newcommand{\p}{\pause}
+\newcommand{\pitem}{\pause \item}
+\newcommand{\N}{\mathcal{N}}
+\newcommand{\Y}{\bm{\mathcal{Y}}}
+\newcommand{\bh}{\bm{h}} 
 
 
 \title{\centering{Chapter 48 Outline\\
@@ -70,6 +76,14 @@ Selection of the particular distance function used can be based on a few differe
 \subsection{The exponential random graph model}
 
 Theories of dependence in political science have been developing rapidly in recent years. Example findings include that there is a strong tendency towards rapid retaliation in the issuance of international economic sanctions \citep{cranmer2014reciprocity}, the finding that bilateral preferential trade agreement networks form triads and/or four-cycles to share costs among larger partner groups \citep{milewicz2018beyond}, and influence networks among policy actors are hierarchical---exhibiting a tendency towards transitive tie formation \citep{christopoulos2015exceptional}.  The ERGM opens up a new class of hypotheses that can be tested relative to regression models. In addition to studying how covariates effect the absence/presence of edges, the ERGM permits researchers to test hypotheses about how the edges effect each other (e.g., is the enemy of an enemy a friend)? The key components in using an ERGM are to develop hypotheses regarding the ways in which edges depend on each other, and conceptualize these dependencies in terms of subnetwork structures such as dyads and triads.
+
+
+Under the ERGM, the probability (likelihood function) of observing the entire network $\bm{Y}$ is 
+$$ \mathcal{P}(\bm{Y}, \bt) = \frac{\exp \{ \bt' \bm{Y}  \}}{\sum_{\bm{Y}^* \in \mathcal{Y}} \exp \{\bt ' \bm{Y}^*  \}},$$
+where $ \bh(\bm{Y})$ is the vector of network statistics selected to specify the model, $\bt$ is the vector of effects of the network statistics on the probability of observing a particular configuration of the network, $\exp \{\bt' \bh(\bm{Y}) \}$ is the positive weight associated with the respective network configuration, $\mathcal{Y}$ is the set of all possible network configurations, and $ \sum_{\bm{Y}^* \in \mathcal{Y}} \exp \{\bt ' \bm{Y}^*  \} $ is the normalizing constant that assures that the probability distribution over networks sums to one. The ERGM is specified through the selection of $ \bh(\bm{Y})$, and is very flexible. This flexibility comes at two costs when it comes to application. First, since $\mathcal{Y}$ is so large---$2^{n*(n-1)}$, where $n$ is the number of nodes in the network, for a directed network with no self-ties---the likelihood function cannot be computed exactly, which means estimation involves either approximation of the likelihood or method of moments criteria \citep{hummel2012improving,schmid2017exponential,he2016estimating}.  Second, the researcher may specify a model that cannot be effectively fit to the observed data, the consequence of which is model degeneracy. Model degeneracy is a condition under which the model does not converge to a model that can effectively approximate even the number of edges in the network, the result of which is a model that places nearly all of the probability on either the completely full or completely empty network \citep{schweinberger2011instability}.  An active methodological literature has made substantial progress towards solving these two problems \citep[e.g., ][]{demuse2018phase}, and state-of-the-art open-source software implements many of these solutions \citep{hunter2008ergm}. 
+
+
+The ERGM has been used to study several different forms of dependence in political networks. \cite{peng2016follower} apply ERGM to study reciprocity in the online communication networks among members of the United States Congress. \cite{osei2018party} ALSO STUDY RECIPROCITY...
 
 
 \subsection{The stochastic blockmodel}

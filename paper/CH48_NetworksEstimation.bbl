@@ -92,6 +92,13 @@ Davis, Christina~L \harvardand\ Tyler Pratt. 2017.
 \newblock ``The Forces of Attraction: How Security Interests Shape Membership
   in Economic Institutions.''.
 
+\harvarditem[DeMuse, Larcomb \harvardand\ Yin]{DeMuse, Larcomb \harvardand\
+  Yin}{2018}{demuse2018phase}
+DeMuse, Ryan, Danielle Larcomb \harvardand\ Mei Yin. 2018.
+\newblock ``Phase Transitions in Edge-Weighted Exponential Random Graphs:
+  Near-Degeneracy and Universality.'' {\em Journal of Statistical Physics}
+  171(1):127--144.
+
 \harvarditem{Desmarais \harvardand\ Cranmer}{2013}{desmarais2013forecasting}
 Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2013.
 \newblock ``Forecasting the locational dynamics of transnational terrorism: A
@@ -139,6 +146,27 @@ Hafner-Burton, Emilie~M, Miles Kahler \harvardand\ Alexander~H Montgomery.
 Harris, Jenine~K. 2013.
 \newblock ``Communication ties across the national network of local health
   departments.'' {\em American journal of preventive medicine} 44(3):247--253.
+
+\harvarditem{He \harvardand\ Zheng}{2016}{he2016estimating}
+He, Ran \harvardand\ Tian Zheng. 2016.
+\newblock Estimating exponential random graph models using sampled network data
+  via graphon.  In {\em Advances in Social Networks Analysis and Mining
+  (ASONAM), 2016 IEEE/ACM International Conference on}.
+\newblock IEEE pp.~112--119.
+
+\harvarditem[Hummel, Hunter \harvardand\ Handcock]{Hummel, Hunter \harvardand\
+  Handcock}{2012}{hummel2012improving}
+Hummel, Ruth~M, David~R Hunter \harvardand\ Mark~S Handcock. 2012.
+\newblock ``Improving simulation-based algorithms for fitting ERGMs.'' {\em
+  Journal of Computational and Graphical Statistics} 21(4):920--939.
+
+\harvarditem[Hunter et~al.]{Hunter, Handcock, Butts, Goodreau \harvardand\
+  Morris}{2008}{hunter2008ergm}
+Hunter, David~R, Mark~S Handcock, Carter~T Butts, Steven~M Goodreau
+  \harvardand\ Martina Morris. 2008.
+\newblock ``ergm: A package to fit, simulate and diagnose exponential-family
+  models for networks.'' {\em Journal of statistical software}
+  24(3):nihpa54860.
 
 \harvarditem{Kinne}{2018}{kinne2018defense}
 Kinne, Brandon~J. 2018.
@@ -204,12 +232,32 @@ Osei, Anja \harvardand\ Thomas Malang. 2018.
 \newblock ``Party, ethnicity, or region? Determinants of informal political
   exchange in the parliament of Ghana.'' {\em Party Politics} 24(4):410--420.
 
+\harvarditem[Peng et~al.]{Peng, Liu, Wu \harvardand\
+  Liu}{2016}{peng2016follower}
+Peng, Tai-Quan, Mengchen Liu, Yingcai Wu \harvardand\ Shixia Liu. 2016.
+\newblock ``Follower-followee network, communication networks, and vote
+  agreement of the US members of congress.'' {\em Communication Research}
+  43(7):996--1024.
+
 \harvarditem[Raftery et~al.]{Raftery, Niu, Hoff \harvardand\
   Yeung}{2012}{raftery2012fast}
 Raftery, Adrian~E, Xiaoyue Niu, Peter~D Hoff \harvardand\ Ka~Yee Yeung. 2012.
 \newblock ``Fast inference for the latent space network model using a
   case-control approximate likelihood.'' {\em Journal of Computational and
   Graphical Statistics} 21(4):901--919.
+
+\harvarditem{Schmid \harvardand\ Desmarais}{2017}{schmid2017exponential}
+Schmid, Christian~S \harvardand\ Bruce~A Desmarais. 2017.
+\newblock Exponential random graph models with big networks: Maximum
+  pseudolikelihood estimation and the parametric bootstrap.  In {\em Big Data
+  (Big Data), 2017 IEEE International Conference on}.
+\newblock IEEE pp.~116--121.
+
+\harvarditem{Schweinberger}{2011}{schweinberger2011instability}
+Schweinberger, Michael. 2011.
+\newblock ``Instability, sensitivity, and degeneracy of discrete exponential
+  families.'' {\em Journal of the American Statistical Association}
+  106(496):1361--1370.
 
 \harvarditem{Sweet}{2015}{sweet2015incorporating}
 Sweet, Tracy~M. 2015.
