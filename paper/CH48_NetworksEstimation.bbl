@@ -111,6 +111,11 @@ DeMuse, Ryan, Danielle Larcomb \harvardand\ Mei Yin. 2018.
   Near-Degeneracy and Universality.'' {\em Journal of Statistical Physics}
   171(1):127--144.
 
+\harvarditem{Desmarais \harvardand\ Cranmer}{2012}{desmarais2012statistical}
+Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2012.
+\newblock ``Statistical inference for valued-edge networks: The generalized
+  exponential random graph model.'' {\em PloS one} 7(1):e30136.
+
 \harvarditem{Desmarais \harvardand\ Cranmer}{2013}{desmarais2013forecasting}
 Desmarais, Bruce~A \harvardand\ Skyler~J Cranmer. 2013.
 \newblock ``Forecasting the locational dynamics of transnational terrorism: A
@@ -213,6 +218,24 @@ Kirkland, Justin~H. 2012.
 Kirkland, Justin~H \harvardand\ R~Lucas Williams. 2014.
 \newblock ``Partisanship and reciprocity in cross-chamber legislative
   interactions.'' {\em The Journal of Politics} 76(3):754--769.
+
+\harvarditem[Krafft et~al.]{Krafft, Moore, Desmarais \harvardand\
+  Wallach}{2012}{krafft2012topic}
+Krafft, Peter, Juston Moore, Bruce Desmarais \harvardand\ Hanna~M Wallach.
+  2012.
+\newblock Topic-partitioned multinetwork embeddings.  In {\em Advances in
+  Neural Information Processing Systems}.
+\newblock pp.~2807--2815.
+
+\harvarditem{Krivitsky}{2012}{krivitsky2012exponential}
+Krivitsky, Pavel~N. 2012.
+\newblock ``Exponential-family random graph models for valued networks.'' {\em
+  Electronic journal of statistics} 6:1100.
+
+\harvarditem{Krivitsky \harvardand\ Butts}{2017}{krivitsky2017exponential}
+Krivitsky, Pavel~N \harvardand\ Carter~T Butts. 2017.
+\newblock ``Exponential-family random graph models for rank-order relational
+  data.'' {\em Sociological Methodology} 47(1):68--112.
 
 \harvarditem{Krivitsky \harvardand\ Handcock}{2017}{latentnet}
 Krivitsky, Pavel~N. \harvardand\ Mark~S. Handcock. 2017.
@@ -359,5 +382,12 @@ Ward, Michael~D, Randolph~M Siverson \harvardand\ Xun Cao. 2007.
 Wojcik, Stefan. 2017.
 \newblock ``Why Legislative Networks? Analyzing Legislative Network
   Formation.'' {\em Political Science Research and Methods} pp.~1--18.
+
+\harvarditem[Wyatt, Choudhury \harvardand\ Bilmes]{Wyatt, Choudhury
+  \harvardand\ Bilmes}{2009}{wyatt2009dynamic}
+Wyatt, Danny, Tanzeem Choudhury \harvardand\ Jeff Bilmes. 2009.
+\newblock Dynamic multi-valued network models for predicting face-to-face
+  conversations.  In {\em NIPS workshop on Analyzing Networks and Learning with
+  Graphs}.
 
 \end{thebibliography}
