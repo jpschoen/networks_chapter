@@ -1,5 +1,11 @@
 \begin{thebibliography}{xx}
 
+\harvarditem[Aicher, Jacobs \harvardand\ Clauset]{Aicher, Jacobs \harvardand\
+  Clauset}{2014}{aicher2014learning}
+Aicher, Christopher, Abigail~Z Jacobs \harvardand\ Aaron Clauset. 2014.
+\newblock ``Learning latent block structure in weighted networks.'' {\em
+  Journal of Complex Networks} 3(2):221--248.
+
 \harvarditem[Asal et~al.]{Asal, Park, Rethemeyer \harvardand\
   Ackerman}{2016}{asal2016friends}
 Asal, Victor~H, Hyun~Hee Park, R~Karl Rethemeyer \harvardand\ Gary Ackerman.

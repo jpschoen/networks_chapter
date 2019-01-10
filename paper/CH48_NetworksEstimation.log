@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 JAN 2019 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 JAN 2019 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1476,43 +1476,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-<figures/deg_com.pdf, id=319, 578.16pt x 433.62pt>
+<figures/deg_com.pdf, id=322, 578.16pt x 433.62pt>
 File: figures/deg_com.pdf Graphic file (type pdf)
  <use figures/deg_com.pdf>
 Package pdftex.def Info: figures/deg_com.pdf used on input line 124.
 (pdftex.def)             Requested size: 210.54333pt x 133.38448pt.
 
-<figures/cen_com.pdf, id=321, 578.16pt x 433.62pt>
+<figures/cen_com.pdf, id=324, 578.16pt x 433.62pt>
 File: figures/cen_com.pdf Graphic file (type pdf)
  <use figures/cen_com.pdf>
 Package pdftex.def Info: figures/cen_com.pdf used on input line 125.
 (pdftex.def)             Requested size: 210.54333pt x 133.38448pt.
 
-<figures/deg_soc.pdf, id=323, 578.16pt x 433.62pt>
+<figures/deg_soc.pdf, id=326, 578.16pt x 433.62pt>
 File: figures/deg_soc.pdf Graphic file (type pdf)
  <use figures/deg_soc.pdf>
 Package pdftex.def Info: figures/deg_soc.pdf used on input line 128.
 (pdftex.def)             Requested size: 210.54333pt x 133.38448pt.
 
-<figures/cen_soc.pdf, id=325, 578.16pt x 433.62pt>
+<figures/cen_soc.pdf, id=328, 578.16pt x 433.62pt>
 File: figures/cen_soc.pdf Graphic file (type pdf)
  <use figures/cen_soc.pdf>
 Package pdftex.def Info: figures/cen_soc.pdf used on input line 129.
 (pdftex.def)             Requested size: 210.54333pt x 133.38448pt.
 
-<figures/deg_info.pdf, id=327, 578.16pt x 433.62pt>
+<figures/deg_info.pdf, id=330, 578.16pt x 433.62pt>
 File: figures/deg_info.pdf Graphic file (type pdf)
  <use figures/deg_info.pdf>
 Package pdftex.def Info: figures/deg_info.pdf used on input line 133.
 (pdftex.def)             Requested size: 210.54333pt x 133.38448pt.
 
-<figures/cen_info.pdf, id=329, 578.16pt x 433.62pt>
+<figures/cen_info.pdf, id=332, 578.16pt x 433.62pt>
 File: figures/cen_info.pdf Graphic file (type pdf)
  <use figures/cen_info.pdf>
 Package pdftex.def Info: figures/cen_info.pdf used on input line 134.
 (pdftex.def)             Requested size: 210.54333pt x 133.38448pt.
 
-Underfull \vbox (badness 6658) has occurred while \output is active []
+Underfull \vbox (badness 1122) has occurred while \output is active []
 
  [7]
 [8 <./figures/deg_com.pdf> <./figures/cen_com.pdf> <./figures/deg_soc.pdf> <./f
@@ -1526,19 +1526,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 
 LaTeX Warning: Float too large for page by 40.53537pt on input line 304.
 
-[12] <figures/LSM_m1.pdf, id=413, 614.295pt x 794.97pt>
+[12] <figures/LSM_m1.pdf, id=416, 614.295pt x 794.97pt>
 File: figures/LSM_m1.pdf Graphic file (type pdf)
 
 <use figures/LSM_m1.pdf>
 Package pdftex.def Info: figures/LSM_m1.pdf used on input line 310.
 (pdftex.def)             Requested size: 158.50801pt x 200.0818pt.
- <figures/LSM_m2.pdf, id=415, 614.295pt x 794.97pt>
+ <figures/LSM_m2.pdf, id=418, 614.295pt x 794.97pt>
 File: figures/LSM_m2.pdf Graphic file (type pdf)
 
 <use figures/LSM_m2.pdf>
 Package pdftex.def Info: figures/LSM_m2.pdf used on input line 311.
 (pdftex.def)             Requested size: 158.59349pt x 200.0818pt.
- <figures/LSM_m3.pdf, id=417, 433.62pt x 578.16pt>
+ <figures/LSM_m3.pdf, id=420, 433.62pt x 578.16pt>
 File: figures/LSM_m3.pdf Graphic file (type pdf)
 
 <use figures/LSM_m3.pdf>
@@ -1553,20 +1553,20 @@ Overfull \hbox (7.28056pt too wide) in alignment at lines 308--315
 
 
  <./figures/LSM_m1.pdf> <./figures/LSM_m2.pdf> <./figures/LSM_m3.pdf>]
-<figures/SBM_m1.png, id=447, 1020.81375pt x 597.23125pt>
+<figures/SBM_m1.png, id=450, 1020.81375pt x 597.23125pt>
 File: figures/SBM_m1.png Graphic file (type png)
 
 <use figures/SBM_m1.png>
 Package pdftex.def Info: figures/SBM_m1.png used on input line 320.
 (pdftex.def)             Requested size: 330.57674pt x 193.40598pt.
- <figures/SBM_m2.png, id=450, 1027.84pt x 605.26125pt>
+ <figures/SBM_m2.png, id=453, 1027.84pt x 605.26125pt>
 File: figures/SBM_m2.png Graphic file (type png)
 
 <use figures/SBM_m2.png>
 Package pdftex.def Info: figures/SBM_m2.png used on input line 322.
 (pdftex.def)             Requested size: 328.42932pt x 193.40598pt.
 
-<figures/SBM_m3.png, id=452, 1036.87375pt x 600.2425pt>
+<figures/SBM_m3.png, id=455, 1036.87375pt x 600.2425pt>
 File: figures/SBM_m3.png Graphic file (type png)
 
 <use figures/SBM_m3.png>
@@ -1581,7 +1581,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./CH48_NetworksEstimation.bbl [15
 
 ] [16]
-Overfull \hbox (1.71703pt too wide) in paragraph at lines 255--259
+Overfull \hbox (1.71703pt too wide) in paragraph at lines 261--265
 \OT1/ptm/m/n/12 (-20) random graph model: A reanalysis of 102 student networks 
 in school classes.'' \OT1/ptm/m/it/12 (-20) Social networks \OT1/ptm/m/n/12 (-2
 0) 29(4):489--
@@ -1601,13 +1601,13 @@ Package rerunfilecheck Info: File `CH48_NetworksEstimation.out' has not changed
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 340.
  ) 
 Here is how much of TeX's memory you used:
- 29638 strings out of 492995
- 591967 string characters out of 6132704
- 701381 words of memory out of 5000000
- 32547 multiletter control sequences out of 15000+600000
+ 29642 strings out of 492995
+ 592068 string characters out of 6132704
+ 700453 words of memory out of 5000000
+ 32550 multiletter control sequences out of 15000+600000
  73690 words of font info for 276 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,49p,10393b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,49p,10393b,981s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1621,10 +1621,10 @@ urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/
 usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CH48_NetworksEstimation.pdf (19 pages, 586195 bytes).
+Output written on CH48_NetworksEstimation.pdf (19 pages, 586618 bytes).
 PDF statistics:
- 559 PDF objects out of 1000 (max. 8388607)
- 484 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 487 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
  48861 words of extra memory for PDF output out of 51595 (max. 10000000)
 

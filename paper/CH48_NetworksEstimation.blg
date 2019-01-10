@@ -11,62 +11,62 @@ Repeated entry---line 409 of file bibliography.bib
  : @article{raftery2012fast
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 725 of file bibliography.bib
+Repeated entry---line 736 of file bibliography.bib
  : @article{cranmer2014reciprocity
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 814 of file bibliography.bib
+Repeated entry---line 825 of file bibliography.bib
  : @article{atouba2015international
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 847 of file bibliography.bib
+Repeated entry---line 858 of file bibliography.bib
  : @article{cranmer2015kantian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 880 of file bibliography.bib
+Repeated entry---line 891 of file bibliography.bib
  : @article{chyzh2016dangerous
  :                            ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in dorff2016latent
-You've used 66 entries,
+You've used 67 entries,
             2874 wiz_defined-function locations,
-            1020 strings with 16773 characters,
-and the built_in function-call counts, 305957 in all, are:
-= -- 50259
-> -- 3769
+            1025 strings with 16938 characters,
+and the built_in function-call counts, 312262 in all, are:
+= -- 51301
+> -- 3858
 < -- 0
-+ -- 23769
-- -- 1317
-* -- 26443
-:= -- 60858
-add.period$ -- 269
-call.type$ -- 66
-change.case$ -- 858
-chr.to.int$ -- 66
-cite$ -- 67
-duplicate$ -- 1042
-empty$ -- 2347
-format.name$ -- 1376
-if$ -- 55071
++ -- 24277
+- -- 1347
+* -- 27001
+:= -- 62094
+add.period$ -- 273
+call.type$ -- 67
+change.case$ -- 871
+chr.to.int$ -- 67
+cite$ -- 68
+duplicate$ -- 1057
+empty$ -- 2383
+format.name$ -- 1406
+if$ -- 56206
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 64
-newline$ -- 276
-num.names$ -- 781
-pop$ -- 216
+missing$ -- 65
+newline$ -- 280
+num.names$ -- 795
+pop$ -- 218
 preamble$ -- 1
-purify$ -- 990
+purify$ -- 1005
 quote$ -- 0
-skip$ -- 925
+skip$ -- 939
 stack$ -- 0
-substring$ -- 71240
-swap$ -- 167
-text.length$ -- 924
+substring$ -- 72735
+swap$ -- 169
+text.length$ -- 938
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 264
+type$ -- 268
 warning$ -- 1
-while$ -- 1602
+while$ -- 1628
 width$ -- 0
-write$ -- 924
+write$ -- 939
 (There were 6 error messages)
