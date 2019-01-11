@@ -36,6 +36,12 @@ Bond, Robert~M, Christopher~J Fariss, Jason~J Jones, Adam~DI Kramer, Cameron
 \newblock ``A 61-million-person experiment in social influence and political
   mobilization.'' {\em Nature} 489(7415):295.
 
+\harvarditem{Box-Steffensmeier \harvardand\
+  Christenson}{2014}{box2014evolution}
+Box-Steffensmeier, Janet~M \harvardand\ Dino~P Christenson. 2014.
+\newblock ``The evolution and formation of amicus curiae networks.'' {\em
+  Social Networks} 36:82--96.
+
 \harvarditem{Brandenberger}{2018}{brandenberger2018trading}
 Brandenberger, Laurence. 2018.
 \newblock ``Trading favors?Examining the temporal dynamics of reciprocity in
@@ -143,6 +149,13 @@ Dorff, Cassy, Shahryar Minhas \harvardand\ Michael~D Ward. 2016.
 \newblock Latent Networks and Spatial Networks in Politics.  In {\em The Oxford
   Handbook of Political Networks}.
 
+\harvarditem[DuBois, Butts \harvardand\ Smyth]{DuBois, Butts \harvardand\
+  Smyth}{2013}{dubois2013stochastic}
+DuBois, Christopher, Carter Butts \harvardand\ Padhraic Smyth. 2013.
+\newblock Stochastic blockmodeling of relational event dynamics.  In {\em
+  Artificial Intelligence and Statistics}.
+\newblock pp.~238--246.
+
 \harvarditem{Duque}{2018}{duque2018recognizing}
 Duque, Marina~G. 2018.
 \newblock ``Recognizing international status: A relational approach.'' {\em
@@ -176,6 +189,12 @@ Hafner-Burton, Emilie~M, Miles Kahler \harvardand\ Alexander~H Montgomery.
   2009.
 \newblock ``Network analysis for international relations.'' {\em International
   Organization} 63(3):559--592.
+
+\harvarditem[Hanneke et~al.]{Hanneke, Fu, Xing
+  et~al.}{2010}{hanneke2010discrete}
+Hanneke, Steve, Wenjie Fu, Eric~P Xing et~al. 2010.
+\newblock ``Discrete temporal models of social networks.'' {\em Electronic
+  Journal of Statistics} 4:585--605.
 
 \harvarditem{Harris}{2013}{harris2013communication}
 Harris, Jenine~K. 2013.
@@ -257,6 +276,13 @@ Latouche, Pierre, Etienne Birmel{\'e} \harvardand\ Christophe Ambroise. 2011.
 \newblock ``Overlapping stochastic block models with application to the french
   political blogosphere.'' {\em The Annals of Applied Statistics} pp.~309--336.
 
+\harvarditem[Li et~al.]{Li, Bradshaw, Clary \harvardand\
+  Cranmer}{2017}{li2017three}
+Li, Weihua, Aisha~E Bradshaw, Caitlin~B Clary \harvardand\ Skyler~J Cranmer.
+  2017.
+\newblock ``A three-degree horizon of peace in the military alliance network.''
+  {\em Science advances} 3(3):e1601895.
+
 \harvarditem{Lubbers \harvardand\ Snijders}{2007}{lubbers2007comparison}
 Lubbers, Miranda~J \harvardand\ Tom~AB Snijders. 2007.
 \newblock ``A comparison of various approaches to the exponential random graph
@@ -312,12 +338,25 @@ Peng, Tai-Quan, Mengchen Liu, Yingcai Wu \harvardand\ Shixia Liu. 2016.
   agreement of the US members of congress.'' {\em Communication Research}
   43(7):996--1024.
 
+\harvarditem{Perry \harvardand\ Wolfe}{2013}{perry2013point}
+Perry, Patrick~O \harvardand\ Patrick~J Wolfe. 2013.
+\newblock ``Point process modelling for directed interaction networks.'' {\em
+  Journal of the Royal Statistical Society: Series B (Statistical Methodology)}
+  75(5):821--849.
+
 \harvarditem[Raftery et~al.]{Raftery, Niu, Hoff \harvardand\
   Yeung}{2012}{raftery2012fast}
 Raftery, Adrian~E, Xiaoyue Niu, Peter~D Hoff \harvardand\ Ka~Yee Yeung. 2012.
 \newblock ``Fast inference for the latent space network model using a
   case-control approximate likelihood.'' {\em Journal of Computational and
   Graphical Statistics} 21(4):901--919.
+
+\harvarditem[Ringe, Victor \harvardand\ Carman]{Ringe, Victor \harvardand\
+  Carman}{2013}{ringe2013bridging}
+Ringe, Nils, Jennifer~N Victor \harvardand\ Christopher~J Carman. 2013.
+\newblock {\em Bridging the information gap: Legislative member organizations
+  as social networks in the United States and the European Union}.
+\newblock University of Michigan Press.
 
 \harvarditem[Robinson, Atlas \harvardand\ Wager]{Robinson, Atlas \harvardand\
   Wager}{2015}{robinson2015dynamic}
@@ -338,6 +377,11 @@ Schweinberger, Michael. 2011.
 \newblock ``Instability, sensitivity, and degeneracy of discrete exponential
   families.'' {\em Journal of the American Statistical Association}
   106(496):1361--1370.
+
+\harvarditem{Sewell \harvardand\ Chen}{2015}{sewell2015latent}
+Sewell, Daniel~K \harvardand\ Yuguo Chen. 2015.
+\newblock ``Latent space models for dynamic networks.'' {\em Journal of the
+  American Statistical Association} 110(512):1646--1657.
 
 \harvarditem{Signorelli \harvardand\ Wit}{2018}{signorelli2018penalized}
 Signorelli, Mirko \harvardand\ Ernst~C Wit. 2018.
@@ -395,5 +439,10 @@ Wyatt, Danny, Tanzeem Choudhury \harvardand\ Jeff Bilmes. 2009.
 \newblock Dynamic multi-valued network models for predicting face-to-face
   conversations.  In {\em NIPS workshop on Analyzing Networks and Learning with
   Graphs}.
+
+\harvarditem{Xu \harvardand\ Hero}{2014}{xu2014dynamic}
+Xu, Kevin~S \harvardand\ Alfred~O Hero. 2014.
+\newblock ``Dynamic stochastic blockmodels for time-evolving social networks.''
+  {\em IEEE Journal of Selected Topics in Signal Processing} 8(4):552--562.
 
 \end{thebibliography}
