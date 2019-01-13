@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  12 JAN 2019 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  12 JAN 2019 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1507,11 +1507,11 @@ Package rerunfilecheck Info: File `CH48_NetworksEstimation.out' has not changed
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 348.
  ) 
 Here is how much of TeX's memory you used:
- 28241 strings out of 493089
- 572911 string characters out of 6134841
+ 28239 strings out of 493089
+ 572896 string characters out of 6134841
  671245 words of memory out of 5000000
  31055 multiletter control sequences out of 15000+600000
- 75573 words of font info for 288 fonts, out of 8000000 for 9000
+ 75523 words of font info for 287 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,12n,49p,10409b,989s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1527,7 +1527,7 @@ urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/symbol/
 usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CH48_NetworksEstimation.pdf (20 pages, 599246 bytes).
+Output written on CH48_NetworksEstimation.pdf (20 pages, 599226 bytes).
 PDF statistics:
  600 PDF objects out of 1000 (max. 8388607)
  523 compressed objects within 6 object streams
