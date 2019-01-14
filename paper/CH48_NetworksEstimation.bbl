@@ -1,5 +1,14 @@
 \begin{thebibliography}{xx}
 
+\harvarditem[Adhikari et~al.]{Adhikari, Dabbs, Junker, Sadinle, Sweet
+  \harvardand\ Thomas}{2015}{cidnetworks}
+Adhikari, Samrachana, Beau Dabbs, Brian Junker, Mauricio Sadinle, Tracy Sweet
+  \harvardand\ A.C. Thomas. 2015.
+\newblock {\em CIDnetworks: Generative Models for Complex Networks with
+  Conditionally Independent Dyadic Structure}.
+\newblock R package version 0.8.1.
+\newline\harvardurl{https://CRAN.R-project.org/package=CIDnetworks}
+
 \harvarditem[Aicher, Jacobs \harvardand\ Clauset]{Aicher, Jacobs \harvardand\
   Clauset}{2014}{aicher2014learning}
 Aicher, Christopher, Abigail~Z Jacobs \harvardand\ Aaron Clauset. 2014.
@@ -190,6 +199,16 @@ Hafner-Burton, Emilie~M, Miles Kahler \harvardand\ Alexander~H Montgomery.
 \newblock ``Network analysis for international relations.'' {\em International
   Organization} 63(3):559--592.
 
+\harvarditem[Handcock et~al.]{Handcock, Hunter, Butts, Goodreau, Krivitsky
+  \harvardand\ Morris}{2018}{ergm}
+Handcock, Mark~S., David~R. Hunter, Carter~T. Butts, Steven~M. Goodreau,
+  Pavel~N. Krivitsky \harvardand\ Martina Morris. 2018.
+\newblock {\em ergm: Fit, Simulate and Diagnose Exponential-Family Models for
+  Networks}.
+\newblock The Statnet Project (\url{http://www.statnet.org}).
+\newblock R package version 3.9.4.
+\newline\harvardurl{https://CRAN.R-project.org/package=ergm}
+
 \harvarditem[Hanneke et~al.]{Hanneke, Fu, Xing
   et~al.}{2010}{hanneke2010discrete}
 Hanneke, Steve, Wenjie Fu, Eric~P Xing et~al. 2010.
@@ -315,11 +334,6 @@ Milewicz, Karolina, James Hollway, Claire Peacock \harvardand\ Duncan Snidal.
 \newblock ``Beyond trade: the expanding scope of the nontrade agenda in trade
   agreements.'' {\em Journal of Conflict Resolution} 62(4):743--773.
 
-\harvarditem{Nowicki \harvardand\ Snijders}{2001}{nowicki2001estimation}
-Nowicki, Krzysztof \harvardand\ Tom A~B Snijders. 2001.
-\newblock ``Estimation and prediction for stochastic blockstructures.'' {\em
-  Journal of the American statistical association} 96(455):1077--1087.
-
 \harvarditem{Ogburn}{2018}{ogburn2018challenges}
 Ogburn, Elizabeth~L. 2018.
 \newblock Challenges to estimating contagion effects from observational data.
@@ -399,13 +413,6 @@ Sweet, Tracy~M. 2015.
 \newblock ``Incorporating covariates into stochastic blockmodels.'' {\em
   Journal of Educational and Behavioral Statistics} 40(6):635--664.
 
-\harvarditem[Van~Duijn, Gile \harvardand\ Handcock]{Van~Duijn, Gile
-  \harvardand\ Handcock}{2009}{van2009framework}
-Van~Duijn, Marijtje~AJ, Krista~J Gile \harvardand\ Mark~S Handcock. 2009.
-\newblock ``A framework for the comparison of maximum pseudo-likelihood and
-  maximum likelihood estimation of exponential family random graph models.''
-  {\em Social Networks} 31(1):52--62.
-
 \harvarditem[Vance, Archie \harvardand\ Moss]{Vance, Archie \harvardand\
   Moss}{2009}{vance2009social}
 Vance, Eric~A, Elizabeth~A Archie \harvardand\ Cynthia~J Moss. 2009.
@@ -444,5 +451,10 @@ Wyatt, Danny, Tanzeem Choudhury \harvardand\ Jeff Bilmes. 2009.
 Xu, Kevin~S \harvardand\ Alfred~O Hero. 2014.
 \newblock ``Dynamic stochastic blockmodels for time-evolving social networks.''
   {\em IEEE Journal of Selected Topics in Signal Processing} 8(4):552--562.
+
+\harvarditem{Zhu \harvardand\ Watts}{2010}{zhu2010visualization}
+Zhu, Bin \harvardand\ Stephanie~A Watts. 2010.
+\newblock ``Visualization of network concepts: The impact of working memory
+  capacity differences.'' {\em Information Systems Research} 21(2):327--344.
 
 \end{thebibliography}
