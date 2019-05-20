@@ -73,6 +73,12 @@ Cao, Xun. 2012.
 \newblock ``Global networks and domestic policy convergence: A network
   explanation of policy changes.'' {\em World Politics} 64(3):375--425.
 
+\harvarditem[Carrington, Scott \harvardand\ Wasserman]{Carrington, Scott
+  \harvardand\ Wasserman}{2005}{carrington2005models}
+Carrington, Peter~J, John Scott \harvardand\ Stanley Wasserman. 2005.
+\newblock {\em Models and methods in social network analysis}.
+\newblock Vol.~28 Cambridge university press.
+
 \harvarditem{Christopoulos \harvardand\
   Ingold}{2015}{christopoulos2015exceptional}
 Christopoulos, Dimitris \harvardand\ Karin Ingold. 2015.
@@ -157,6 +163,7 @@ Dorff, Cassy \harvardand\ Shahryar Minhas. 2017.
 Dorff, Cassy, Shahryar Minhas \harvardand\ Michael~D Ward. 2016.
 \newblock Latent Networks and Spatial Networks in Politics.  In {\em The Oxford
   Handbook of Political Networks}.
+\newblock Oxford University Press.
 
 \harvarditem[DuBois, Butts \harvardand\ Smyth]{DuBois, Butts \harvardand\
   Smyth}{2013}{dubois2013stochastic}
@@ -308,6 +315,11 @@ Lubbers, Miranda~J \harvardand\ Tom~AB Snijders. 2007.
   model: A reanalysis of 102 student networks in school classes.'' {\em Social
   networks} 29(4):489--507.
 
+\harvarditem{Luke}{2015}{luke2015user}
+Luke, Douglas~A. 2015.
+\newblock {\em A user's guide to network analysis in R}.
+\newblock Springer.
+
 \harvarditem{Lupu \harvardand\ Greenhill}{2017}{lupu2017networked}
 Lupu, Yonatan \harvardand\ Brian Greenhill. 2017.
 \newblock ``The networked peace: Intergovernmental organizations and
@@ -418,6 +430,13 @@ Sweet, Tracy~M. 2015.
 Vance, Eric~A, Elizabeth~A Archie \harvardand\ Cynthia~J Moss. 2009.
 \newblock ``Social networks in African elephants.'' {\em Computational and
   mathematical organization theory} 15(4):273.
+
+\harvarditem[Wang et~al.]{Wang, Butts, Hipp, Jose \harvardand\
+  Lakon}{2016}{wang2016multiple}
+Wang, Cheng, Carter~T Butts, John~R Hipp, Rupa Jose \harvardand\ Cynthia~M
+  Lakon. 2016.
+\newblock ``Multiple imputation for missing edge data: a predictive evaluation
+  method with application to add health.'' {\em Social networks} 45:89--98.
 
 \harvarditem{Wang}{2009}{wang2009wilcoxon}
 Wang, Lan. 2009.
